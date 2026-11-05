@@ -1,0 +1,38 @@
+# secrets
+.env
+.env.*
+
+# private: post drafts, article plans, architecture/roadmap notes
+writing/
+notes/
+private/
+*PLAN*.md
+*plan*.md
+*roadmap*.md
+
+# large or regenerable artifacts
+models/
+tools/
+.venv*/
+fixtures/
+data/
+teacher/jobs/
+teacher/runs/
+teacher/specs/
+teacher/review/
+eval/tmp/
+eval/smoke/
+eval/*/jobs/
+eval/*/*/jobs/
+eval/passk/s*/
+*.gguf
+*.safetensors
+
+# misc
+__pycache__/
+.DS_Store
+*.log
+!build_layer1.log
+
+# local app jobs: user uploads and results
+app/jobs/

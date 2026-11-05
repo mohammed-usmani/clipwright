@@ -1,0 +1,35 @@
+8016 jobs across 203 tasks; 7 workers
+  250/8016 done, 0 failed
+  500/8016 done, 0 failed
+  750/8016 done, 0 failed
+  1000/8016 done, 0 failed
+  1250/8016 done, 1 failed
+  1500/8016 done, 1 failed
+  1750/8016 done, 1 failed
+  2000/8016 done, 1 failed
+  2250/8016 done, 1 failed
+  2500/8016 done, 1 failed
+  2750/8016 done, 1 failed
+  3000/8016 done, 1 failed
+  3250/8016 done, 4 failed
+  3500/8016 done, 5 failed
+  3750/8016 done, 7 failed
+  4000/8016 done, 7 failed
+  4250/8016 done, 7 failed
+  4500/8016 done, 11 failed
+  4750/8016 done, 11 failed
+  5000/8016 done, 11 failed
+  5250/8016 done, 11 failed
+  5500/8016 done, 11 failed
+  5750/8016 done, 11 failed
+  6000/8016 done, 11 failed
+  6250/8016 done, 11 failed
+  6500/8016 done, 11 failed
+  6750/8016 done, 12 failed
+  7000/8016 done, 12 failed
+  7250/8016 done, 12 failed
+  7500/8016 done, 12 failed
+  7750/8016 done, 12 failed
+  8000/8016 done, 12 failed
+kept 8004 (7154 train / 850 test), failed 12
+failures by task: {"p_creation": 4, "v_stabilize": 3, "a_trim": 3, "i_dpi": 1, "v_split": 1}

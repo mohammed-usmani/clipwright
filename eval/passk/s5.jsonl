@@ -1,0 +1,30 @@
+{"id": "a010_0049", "category": "multistep/audio", "pass": true, "verify_pass": true, "status": "done", "steps": 6, "errors": [], "secs": 52}
+{"id": "a011_1030", "category": "multistep/audio", "pass": true, "verify_pass": true, "status": "done", "steps": 6, "errors": [], "secs": 54}
+{"id": "a010_0167", "category": "multistep/audio", "pass": true, "verify_pass": true, "status": "done", "steps": 4, "errors": [], "secs": 44}
+{"id": "a011_0654", "category": "multistep/audio", "pass": false, "verify_pass": false, "status": "done", "steps": 5, "errors": ["*.mp3: found 0 file(s)"], "secs": 54}
+{"id": "a011_1160", "category": "multistep/audio", "pass": false, "verify_pass": false, "status": "done", "steps": 10, "errors": ["lecture.mp3: channels 2"], "secs": 104}
+{"id": "a011_0955", "category": "multistep/audio", "pass": false, "verify_pass": false, "status": "done", "steps": 4, "errors": ["voice_memo.mp3: duration 5.0s not in [63.5, 66.5]"], "secs": 47}
+{"id": "a011_0243", "category": "multistep/audio", "pass": false, "verify_pass": false, "status": "loop", "steps": 5, "errors": ["*.mp3: found 0 file(s)", "*.wav: found 0 file(s)"], "secs": 75}
+{"id": "a011_0779", "category": "multistep/audio", "pass": false, "verify_pass": false, "status": "done", "steps": 4, "errors": ["recording_jingle.mp3: duration 35.0s not in [5, 32.0]"], "secs": 55}
+{"id": "a010_0153", "category": "multistep/audio", "pass": false, "verify_pass": false, "status": "step limit", "steps": 15, "errors": ["*.mp3: found 0 file(s)"], "secs": 121}
+{"id": "i010_0115", "category": "multistep/image", "pass": false, "verify_pass": false, "status": "loop", "steps": 8, "errors": ["*.jpg: found 0 file(s), expected 4", "*.pdf: found 0 file(s)"], "secs": 136}
+{"id": "i011_1415", "category": "multistep/image", "pass": false, "verify_pass": false, "status": "loop", "steps": 6, "errors": ["*.jpg: found 0 file(s), expected 3", "contact*: found 0 file(s), expected 1"], "secs": 60}
+{"id": "i011_0943", "category": "multistep/image", "pass": true, "verify_pass": true, "status": "done", "steps": 6, "errors": [], "secs": 69}
+{"id": "v011_0707", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 4, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.jpg: found 0 file(s)"], "secs": 20}
+{"id": "v011_0076", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 11, "errors": ["recording.mp4: loudness -10.7 LUFS not in [-16, -12]", "recording.mp4: metadata left: ['title']"], "secs": 114}
+{"id": "v011_0088", "category": "multistep/video", "pass": true, "verify_pass": true, "status": "done", "steps": 5, "errors": [], "secs": 76}
+{"id": "v011_0665", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 4, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.jpg: found 0 file(s)"], "secs": 76}
+{"id": "v011_0969", "category": "multistep/video", "pass": true, "verify_pass": true, "status": "done", "steps": 5, "errors": [], "secs": 96}
+{"id": "v010_0074", "category": "multistep/video", "pass": true, "verify_pass": true, "status": "done", "steps": 4, "errors": [], "secs": 87}
+{"id": "v011_1078", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 7, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.mp3: found 0 file(s)"], "secs": 83}
+{"id": "v011_1340", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 6, "errors": ["my video.mp4: fps 30.00", "my video.mp4: loudness -21.8 LUFS not in [-16, -12]"], "secs": 93}
+{"id": "v011_0366", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 9, "errors": ["drone_footage.mp4: fps 30.00", "*.jpg: found 0 file(s)"], "secs": 190}
+{"id": "v011_0184", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "done", "steps": 6, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 92}
+{"id": "v011_0074", "category": "multistep/video", "pass": true, "verify_pass": true, "status": "done", "steps": 3, "errors": [], "secs": 73}
+{"id": "v011_0178", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 7, "errors": ["gameplay.webm: unreadable"], "secs": 91}
+{"id": "v011_1252", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 9, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 199}
+{"id": "v011_0994", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 6, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 63}
+{"id": "v011_1422", "category": "multistep/video", "pass": true, "verify_pass": true, "status": "done", "steps": 5, "errors": [], "secs": 129}
+{"id": "v010_0089", "category": "multistep/video", "pass": true, "verify_pass": true, "status": "done", "steps": 6, "errors": [], "secs": 116}
+{"id": "v011_0320", "category": "multistep/video", "pass": false, "verify_pass": false, "status": "loop", "steps": 6, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.mp3: found 0 file(s)"], "secs": 93}
+{"id": "v011_1354", "category": "multistep/video", "pass": true, "verify_pass": true, "status": "done", "steps": 7, "errors": [], "secs": 115}

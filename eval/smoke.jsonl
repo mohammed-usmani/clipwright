@@ -1,0 +1,2 @@
+{"id": "a011_0548", "category": "multistep/audio", "pass": false, "verify_pass": false, "status": "loop", "steps": 7, "errors": ["*.mp3: found 0 file(s)"], "secs": 20}
+{"id": "a011_0103", "category": "multistep/audio", "pass": false, "verify_pass": false, "status": "done", "steps": 5, "errors": ["interview_jingle.mp3: duration 5.0s not in [48.5, 51.5]", "interview_jingle.mp3: channels 2"], "secs": 22}

@@ -1,0 +1,100 @@
+{"id": "a011_0548", "category": "multistep/audio", "pass": false, "status": "loop", "steps": 7, "errors": ["*.mp3: found 0 file(s)"], "secs": 42}
+{"id": "a011_0103", "category": "multistep/audio", "pass": false, "status": "done", "steps": 4, "errors": ["interview_jingle.mp3: channels 2"], "secs": 47}
+{"id": "a011_0700", "category": "multistep/audio", "pass": true, "status": "done", "steps": 4, "errors": [], "secs": 54}
+{"id": "a011_1319", "category": "multistep/audio", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 57}
+{"id": "a010_0049", "category": "multistep/audio", "pass": true, "status": "done", "steps": 6, "errors": [], "secs": 60}
+{"id": "a010_0112", "category": "multistep/audio", "pass": false, "status": "loop", "steps": 6, "errors": [], "secs": 110}
+{"id": "a011_1030", "category": "multistep/audio", "pass": true, "status": "done", "steps": 4, "errors": [], "secs": 94}
+{"id": "a010_0167", "category": "multistep/audio", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 59}
+{"id": "a011_0654", "category": "multistep/audio", "pass": false, "status": "done", "steps": 4, "errors": ["beat_clean.mp3: duration 35.0s not in [5, 32.0]"], "secs": 52}
+{"id": "a011_1160", "category": "multistep/audio", "pass": false, "status": "step limit", "steps": 15, "errors": ["*.mp3: found 0 file(s)"], "secs": 185}
+{"id": "a010_0070", "category": "multistep/audio", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 69}
+{"id": "a011_0955", "category": "multistep/audio", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 77}
+{"id": "a011_0243", "category": "multistep/audio", "pass": false, "status": "loop", "steps": 7, "errors": ["*.mp3: found 0 file(s)"], "secs": 100}
+{"id": "a010_0027", "category": "multistep/audio", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 49}
+{"id": "a010_0144", "category": "multistep/audio", "pass": true, "status": "done", "steps": 4, "errors": [], "secs": 105}
+{"id": "a011_0779", "category": "multistep/audio", "pass": false, "status": "done", "steps": 5, "errors": ["recording.mp3: duration 60.0s not in [5, 32.0]"], "secs": 88}
+{"id": "a011_0750", "category": "multistep/audio", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 92}
+{"id": "a010_0099", "category": "multistep/audio", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 51}
+{"id": "a011_0344", "category": "multistep/audio", "pass": false, "status": "done", "steps": 5, "errors": ["recording_jingle.mp3: duration 35.0s not in [5, 32.0]", "recording_jingle.mp3: channels 2"], "secs": 82}
+{"id": "a010_0153", "category": "multistep/audio", "pass": false, "status": "done", "steps": 4, "errors": ["beat_clean.mp3: duration 35.0s not in [5, 32.0]"], "secs": 63}
+{"id": "a011_1071", "category": "multistep/audio", "pass": true, "status": "done", "steps": 4, "errors": [], "secs": 47}
+{"id": "i011_1023", "category": "multistep/image", "pass": true, "status": "done", "steps": 6, "errors": [], "secs": 93}
+{"id": "i010_0110", "category": "multistep/image", "pass": false, "status": "done", "steps": 9, "errors": ["IMG_2041.jpg: DateTimeOriginal lost", "IMG_2042.jpg: DateTimeOriginal lost", "IMG_2043.jpg: DateTimeOriginal lost", "*.pdf: found 0 file(s)"], "secs": 118}
+{"id": "i011_1379", "category": "multistep/image", "pass": false, "status": "done", "steps": 7, "errors": ["IMG_1021.webp: DateTimeOriginal lost", "IMG_1022.webp: DateTimeOriginal lost", "IMG_1023.webp: DateTimeOriginal lost", "IMG_1024.webp: DateTimeOriginal lost"], "secs": 106}
+{"id": "i011_0114", "category": "multistep/image", "pass": false, "status": "loop", "steps": 7, "errors": ["*.jpg: found 1 file(s), expected 3", "*.pdf: found 0 file(s)"], "secs": 90}
+{"id": "i011_0448", "category": "multistep/image", "pass": false, "status": "loop", "steps": 6, "errors": ["*.webp: found 0 file(s), expected 4"], "secs": 70}
+{"id": "i011_1434", "category": "multistep/image", "pass": true, "status": "done", "steps": 7, "errors": [], "secs": 85}
+{"id": "i010_0115", "category": "multistep/image", "pass": true, "status": "done", "steps": 13, "errors": [], "secs": 150}
+{"id": "i011_1415", "category": "multistep/image", "pass": false, "status": "loop", "steps": 7, "errors": ["*.jpg: found 1 file(s), expected 3", "contact*: found 0 file(s), expected 1"], "secs": 87}
+{"id": "i011_1439", "category": "multistep/image", "pass": false, "status": "loop", "steps": 5, "errors": ["*.webp: found 0 file(s), expected 3"], "secs": 54}
+{"id": "i011_0943", "category": "multistep/image", "pass": false, "status": "loop", "steps": 4, "errors": ["*.jpg: found 0 file(s), expected 4"], "secs": 84}
+{"id": "i010_0081", "category": "multistep/image", "pass": true, "status": "done", "steps": 8, "errors": [], "secs": 86}
+{"id": "i011_0447", "category": "multistep/image", "pass": false, "status": "done", "steps": 5, "errors": ["IMG_2041.jpg: DateTimeOriginal lost", "IMG_2042.jpg: DateTimeOriginal lost", "IMG_2043.jpg: DateTimeOriginal lost"], "secs": 90}
+{"id": "i010_0076", "category": "multistep/image", "pass": false, "status": "done", "steps": 8, "errors": ["IMG_1021.webp: DateTimeOriginal lost", "IMG_1022.webp: DateTimeOriginal lost", "IMG_1023.webp: DateTimeOriginal lost", "IMG_1024.webp: DateTimeOriginal lost"], "secs": 129}
+{"id": "i011_1359", "category": "multistep/image", "pass": true, "status": "done", "steps": 7, "errors": [], "secs": 136}
+{"id": "i011_0127", "category": "multistep/image", "pass": false, "status": "done", "steps": 10, "errors": ["IMG_2041.jpg: 1080x1440 exceeds 1080", "IMG_2041.jpg: DateTimeOriginal lost", "IMG_2042.jpg: 1080x1440 exceeds 1080", "IMG_2042.jpg: DateTimeOriginal lost", "IMG_2043.jpg: 1080x1440 exceeds 1080", "IMG_2043.jpg: DateTimeOriginal lost"], "secs": 98}
+{"id": "i011_0653", "category": "multistep/image", "pass": false, "status": "loop", "steps": 7, "errors": ["*.webp: found 1 file(s), expected 3", "contact*: found 0 file(s), expected 1"], "secs": 84}
+{"id": "i011_1009", "category": "multistep/image", "pass": false, "status": "loop", "steps": 8, "errors": ["*.jpg: found 1 file(s), expected 3", "contact*: found 0 file(s), expected 1"], "secs": 84}
+{"id": "i011_0185", "category": "multistep/image", "pass": false, "status": "loop", "steps": 5, "errors": ["*.jpg: found 0 file(s), expected 4", "contact*: found 0 file(s), expected 1"], "secs": 45}
+{"id": "v011_0656", "category": "multistep/video", "pass": false, "status": "step limit", "steps": 15, "errors": ["vacation_with_intro.mp4: unreadable"], "secs": 334}
+{"id": "v010_0162", "category": "multistep/video", "pass": true, "status": "done", "steps": 9, "errors": [], "secs": 167}
+{"id": "v011_0707", "category": "multistep/video", "pass": false, "status": "loop", "steps": 4, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.jpg: found 0 file(s)"], "secs": 35}
+{"id": "v011_0277", "category": "multistep/video", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 63}
+{"id": "v011_0691", "category": "multistep/video", "pass": false, "status": "loop", "steps": 6, "errors": ["family trip.mp4: unreadable", "*.gif: found 0 file(s)"], "secs": 97}
+{"id": "v011_1144", "category": "multistep/video", "pass": false, "status": "loop", "steps": 4, "errors": ["IMG_4821.mp4: unreadable", "*.jpg: found 0 file(s)"], "secs": 93}
+{"id": "v011_0916", "category": "multistep/video", "pass": true, "status": "done", "steps": 6, "errors": [], "secs": 116}
+{"id": "v011_0076", "category": "multistep/video", "pass": false, "status": "loop", "steps": 13, "errors": ["*.mp3: found 0 file(s)"], "secs": 139}
+{"id": "v010_0140", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["GX010123_clip.mp4: unreadable"], "secs": 85}
+{"id": "v011_0729", "category": "multistep/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 30}
+{"id": "v011_0845", "category": "multistep/video", "pass": true, "status": "done", "steps": 4, "errors": [], "secs": 71}
+{"id": "v011_0088", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 76}
+{"id": "v011_0383", "category": "multistep/video", "pass": true, "status": "done", "steps": 6, "errors": [], "secs": 276}
+{"id": "v010_0131", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["lecture-01.mp4: unreadable"], "secs": 179}
+{"id": "v011_0665", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 157}
+{"id": "v011_0969", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.jpg: found 0 file(s)"], "secs": 104}
+{"id": "v010_0074", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 158}
+{"id": "v011_0697", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 202}
+{"id": "v010_0066", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.gif: found 0 file(s)"], "secs": 126}
+{"id": "v011_0798", "category": "multistep/video", "pass": true, "status": "done", "steps": 7, "errors": [], "secs": 180}
+{"id": "v011_0112", "category": "multistep/video", "pass": false, "status": "done", "steps": 4, "errors": ["*.webm: found 0 file(s)"], "secs": 148}
+{"id": "v011_0576", "category": "multistep/video", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 79}
+{"id": "v011_0913", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 370}
+{"id": "v011_0637", "category": "multistep/video", "pass": false, "status": "loop", "steps": 7, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.jpg: found 0 file(s)"], "secs": 275}
+{"id": "v011_0468", "category": "multistep/video", "pass": false, "status": "loop", "steps": 4, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 57}
+{"id": "v011_1078", "category": "multistep/video", "pass": false, "status": "loop", "steps": 10, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.mp3: found 0 file(s)"], "secs": 141}
+{"id": "v011_0284", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["drone_footage_post.mp4: unreadable"], "secs": 236}
+{"id": "v011_0531", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["vacation.mp4: unreadable"], "secs": 201}
+{"id": "v011_0741", "category": "multistep/video", "pass": false, "status": "loop", "steps": 7, "errors": ["vacation.mp4: unreadable", "*.gif: found 0 file(s)"], "secs": 211}
+{"id": "v011_1340", "category": "multistep/video", "pass": false, "status": "loop", "steps": 7, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 240}
+{"id": "v011_0515", "category": "multistep/video", "pass": true, "status": "done", "steps": 6, "errors": [], "secs": 106}
+{"id": "v011_0366", "category": "multistep/video", "pass": false, "status": "done", "steps": 5, "errors": ["drone_footage.mp4: duration 62.5s not in [39.0, 41.0]"], "secs": 84}
+{"id": "v011_0266", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 79}
+{"id": "v011_0184", "category": "multistep/video", "pass": false, "status": "loop", "steps": 4, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 114}
+{"id": "v011_1108", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 127}
+{"id": "v011_0074", "category": "multistep/video", "pass": false, "status": "done", "steps": 4, "errors": ["stream_vod.mp4: 1280x720 is not 9:16 (short side >= 720)"], "secs": 185}
+{"id": "v011_0942", "category": "multistep/video", "pass": false, "status": "stopped: length", "steps": 4, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 191}
+{"id": "v011_1081", "category": "multistep/video", "pass": false, "status": "done", "steps": 3, "errors": ["interview_raw_trim.mp4: duration 40.0s not in [16.0, 18.0]", "interview_raw_trim.mp4: first frame not dark (mean 0.496412)"], "secs": 83}
+{"id": "v011_0178", "category": "multistep/video", "pass": false, "status": "stopped: length", "steps": 6, "errors": ["*.webm: found 0 file(s)"], "secs": 229}
+{"id": "v010_0102", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 143}
+{"id": "v011_0714", "category": "multistep/video", "pass": false, "status": "loop", "steps": 7, "errors": ["recording.mp4: loudness -21.8 LUFS not in [-18, -14]", "recording.mp4: size 6.5 MB > 4"], "secs": 104}
+{"id": "v011_0267", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 167}
+{"id": "v011_0625", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["vacation.mp4: unreadable", "*.mp3: found 0 file(s)"], "secs": 170}
+{"id": "v011_0573", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 100}
+{"id": "v011_1252", "category": "multistep/video", "pass": false, "status": "loop", "steps": 6, "errors": ["family trip.mp4: unreadable"], "secs": 125}
+{"id": "v011_0323", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 158}
+{"id": "v011_0994", "category": "multistep/video", "pass": false, "status": "loop", "steps": 5, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)"], "secs": 68}
+{"id": "v011_0502", "category": "multistep/video", "pass": false, "status": "loop", "steps": 9, "errors": ["interview_raw_trimmed.mp4: has_video=False"], "secs": 121}
+{"id": "v011_0248", "category": "multistep/video", "pass": false, "status": "done", "steps": 6, "errors": ["GX010123_1.5x.mp4: duration 40.0s not in [25.67, 27.67]", "GX010123.mp3: duration 40.0s not in [25.67, 27.67]"], "secs": 137}
+{"id": "v011_0784", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 90}
+{"id": "v011_1422", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 82}
+{"id": "v010_0089", "category": "multistep/video", "pass": false, "status": "loop", "steps": 4, "errors": ["*.mp4|*.mov|*.mkv: found 0 file(s)", "*.mp3: found 0 file(s)"], "secs": 87}
+{"id": "v011_0604", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 48}
+{"id": "v011_0455", "category": "multistep/video", "pass": true, "status": "done", "steps": 6, "errors": [], "secs": 85}
+{"id": "v011_0044", "category": "multistep/video", "pass": false, "status": "loop", "steps": 8, "errors": ["drone_footage_trim.mp4: unreadable"], "secs": 78}
+{"id": "v011_1041", "category": "multistep/video", "pass": true, "status": "done", "steps": 4, "errors": [], "secs": 41}
+{"id": "v011_0320", "category": "multistep/video", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 58}
+{"id": "v011_0018", "category": "multistep/video", "pass": true, "status": "done", "steps": 7, "errors": [], "secs": 73}
+{"id": "v011_1354", "category": "multistep/video", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 31}
+{"id": "v011_0566", "category": "multistep/video", "pass": true, "status": "done", "steps": 6, "errors": [], "secs": 61}
+{"id": "v011_0458", "category": "multistep/video", "pass": true, "status": "done", "steps": 4, "errors": [], "secs": 49}

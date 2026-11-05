@@ -1,0 +1,45 @@
+{"id": "o_v01", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "o_v02", "category": "ood/video", "pass": false, "status": "done", "steps": 1, "errors": ["trip_5MB.mp4: size 5.2 MB > 5"], "secs": 24}
+{"id": "o_v03", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "o_v04", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "o_v05", "category": "ood/video", "pass": false, "status": "done", "steps": 1, "errors": ["lecture_normalized.mp4: loudness -19.0 LUFS not in [-16, -12]"], "secs": 14}
+{"id": "o_v06", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "o_v07", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "o_v08", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "o_v09", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "o_v10", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 18}
+{"id": "o_v11", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "o_v12", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "o_v13", "category": "ood/video", "pass": false, "status": "done", "steps": 1, "errors": ["recording.mp4: vcodec vp9", "recording.mp4: acodec opus"], "secs": 6}
+{"id": "o_v14", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "o_v15", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "o_v16", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "o_v17", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "o_v18", "category": "ood/video", "pass": false, "status": "loop", "steps": 3, "errors": ["*.mp4: found 0 file(s)"], "secs": 11}
+{"id": "o_v19", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "o_v20", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "o_a01", "category": "ood/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "o_a02", "category": "ood/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "o_a03", "category": "ood/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "o_a04", "category": "ood/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "o_a05", "category": "ood/audio", "pass": false, "status": "done", "steps": 1, "errors": ["episode.mp3: loudness -13.9 LUFS not in [-17.5, -14.5]"], "secs": 8}
+{"id": "o_a06", "category": "ood/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "o_a07", "category": "ood/audio", "pass": false, "status": "done", "steps": 1, "errors": ["*.m4a: found 0 file(s)"], "secs": 6}
+{"id": "o_a08", "category": "ood/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "o_a09", "category": "ood/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "o_a10", "category": "ood/audio", "pass": false, "status": "loop", "steps": 5, "errors": ["*.wav|*.mp3: found 0 file(s)"], "secs": 14}
+{"id": "o_i01", "category": "ood/image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "o_i02", "category": "ood/image", "pass": false, "status": "done", "steps": 1, "errors": ["banner_resized.jpg: 945x630, expected 1200x630"], "secs": 3}
+{"id": "o_i03", "category": "ood/image", "pass": false, "status": "done", "steps": 1, "errors": ["profile_resized.jpg: 400x267, expected 400x400"], "secs": 4}
+{"id": "o_i04", "category": "ood/image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "o_i05", "category": "ood/image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "o_i06", "category": "ood/image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "o_i07", "category": "ood/image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "o_i08", "category": "ood/image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "o_i09", "category": "ood/image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 2}
+{"id": "o_i10", "category": "ood/image", "pass": false, "status": "done", "steps": 1, "errors": ["logo_resized.png: 2x1, expected 600x240"], "secs": 3}
+{"id": "o_m01", "category": "ood/multi", "pass": false, "status": "loop", "steps": 6, "errors": ["story.mp4: found 0 file(s)", "thumb.jpg: found 0 file(s), expected 1"], "secs": 39}
+{"id": "o_m02", "category": "ood/multi", "pass": false, "status": "done", "steps": 8, "errors": ["preview.mp3: duration 60.0s not in [19.5, 20.6]"], "secs": 42}
+{"id": "o_m03", "category": "ood/multi", "pass": false, "status": "loop", "steps": 4, "errors": ["screen_music.mp4: unreadable"], "secs": 20}
+{"id": "o_m04", "category": "ood/multi", "pass": false, "status": "loop", "steps": 5, "errors": ["clip.gif: unreadable"], "secs": 38}
+{"id": "o_m05", "category": "ood/multi", "pass": false, "status": "step limit", "steps": 15, "errors": ["raw.mp4: loudness -21.7 LUFS not in [-16, -12]", "thumbnail.jpg: found 0 file(s), expected 1"], "secs": 341}

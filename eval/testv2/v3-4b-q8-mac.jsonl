@@ -1,0 +1,16 @@
+{"id": "a13", "category": "v2/A4 remove sections", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "a37", "category": "v2/A10 side by side", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 22}
+{"id": "b06", "category": "v2/B13 size limit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "b07", "category": "v2/B13 size limit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 18}
+{"id": "b22", "category": "v2/B18 audiogram", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "c21", "category": "v2/C25 channels", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "b24", "category": "v2/B18 audiogram", "pass": false, "status": "done", "steps": 2, "errors": ["show_waveform.mp4: duration 16.0s not in [9.6, 10.5]"], "secs": 37}
+{"id": "d03", "category": "v2/D26 compatibility", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "d02", "category": "v2/D26 compatibility", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 18}
+{"id": "d09", "category": "v2/D28 deinterlace", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 27}
+{"id": "d05", "category": "v2/D27 variable frame rate", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "e03", "category": "v2/E32 batch images", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 33}
+{"id": "e02", "category": "v2/E32 batch images", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 31}
+{"id": "g02", "category": "v2/G41 diagnose", "pass": false, "status": "done", "steps": 2, "errors": ["answer misses /(truncat|incomplete|cut off|cut short|ends early|unfinished|corrupt|damaged)/"], "secs": 25}
+{"id": "f02", "category": "v2/F38 dates", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "h10", "category": "v2/H46 explain limits", "pass": true, "status": "done", "steps": 0, "errors": [], "secs": 5}

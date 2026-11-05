@@ -1,0 +1,850 @@
+{"id": "003c869e44be", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 17}
+{"id": "005cf3f67962", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "01e28f0cea9a", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "0207e7e3e14e", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 3}
+{"id": "024fe99a799c", "category": "video/overlay", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "0252d3af1428", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "02a28b78f7d2", "category": "video/overlay", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "02e25a16ea1a", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "031986fcb564", "category": "video/gif", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "038719bd98d8", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "03979df75458", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "03db00474fd0", "category": "video/delivery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "04318a348f0e", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "04d7122958f4", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 21}
+{"id": "0604a40f73ec", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 29}
+{"id": "061f86270a32", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 29}
+{"id": "06ad730b431c", "category": "batch/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "06dba9b4b000", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "07c012801f18", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "08909a738010", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "089bf296dde0", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "094b1cd0bb76", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 21}
+{"id": "09acdb532078", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "09d664ae0210", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "0abbf2effe9e", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "0b6b54a301ea", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "0b83b33bb82e", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 37}
+{"id": "0bc88a0883ac", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "0cd000865d3a", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 24}
+{"id": "0cec3865611c", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 29}
+{"id": "0d20b01f0314", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 38}
+{"id": "0d4f1a7ead12", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "0dd58d535a3c", "category": "image/combine", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "0e1bb21d9b7a", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "0edb6d89a920", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "0ee711a2723e", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "0efa79521d68", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "0f05a1af3d4e", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "0f3b7481993a", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 120}
+{"id": "0f929909cfdc", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 8}
+{"id": "0fdbeb5ee8dc", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 25}
+{"id": "102a812bb5f4", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "103999c55da4", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 151}
+{"id": "10483775e7e0", "category": "image/resize", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 7}
+{"id": "1068183fa03a", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "10e53008264c", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "10fc8a2c70ee", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "10fea6a99e7a", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "114993a1e77e", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "11d659c6875c", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "123f84960494", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 33}
+{"id": "125667b50ca0", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "128c408f92e0", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "12baaf003eb8", "category": "audio/join", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "12d244fac61a", "category": "video/gif", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "12e9f5d416f0", "category": "video/visualize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "133bcc91b8f4", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "137b4a82c7d2", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "13ac0ba7ce50", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 3}
+{"id": "13d156e200aa", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 2}
+{"id": "13d3fe9e6a2a", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 3}
+{"id": "13d798ea51fe", "category": "video/subtitles", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 3}
+{"id": "1418166c2be4", "category": "video/subtitles", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 2}
+{"id": "1445e613e008", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 2}
+{"id": "14a43c30a774", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "1556cc38d582", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 38}
+{"id": "156d69b3f8f8", "category": "video/subtitles", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "15b33e3a8322", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "15f13288c94c", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "1654245c669a", "category": "video/delivery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "166a9be301c2", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "16cf5f8448f2", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "16d352d37048", "category": "image/crop", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "16f66118024a", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "1716c5a11de4", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "1722496cb3d0", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "175501b9a77c", "category": "video/subtitles", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 2}
+{"id": "176d1ea64de6", "category": "image/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "17a445f5c93a", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 20}
+{"id": "17d64cbbc1ac", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "17d678ad8ca0", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 3}
+{"id": "18867265d4d2", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 3}
+{"id": "18e3cc060ab8", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "190901629ba2", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "191c8165bf60", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 4}
+{"id": "19416816c3cc", "category": "video/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "196f601bd65c", "category": "metadata/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 3}
+{"id": "1a3d484442e8", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "1ac9b9010584", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 17}
+{"id": "1b465f6092b0", "category": "metadata/batch", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "1b49a147891a", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 462}
+{"id": "1c177616207a", "category": "video/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "1c6f309f42f8", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 4}
+{"id": "1c7a1cfc0442", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "1db772cd3b46", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 15}
+{"id": "1e3e1bf96f88", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "1e7a4f2bdd1e", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "1e8a5064571e", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "1ef2cff16e00", "category": "video/speed", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2195: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2195: syntax error while parsing value - invalid string: mis"], "secs": 33}
+{"id": "1f6e4654f99c", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 14}
+{"id": "1f97d690c40e", "category": "image/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 4}
+{"id": "1fe5b08f8d0a", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "203146c123ec", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "2084e9909294", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "20b826aa6672", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 2}
+{"id": "20c3b0327050", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "219129b861dc", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "21a17311f70c", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 2}
+{"id": "21f3c99ab30a", "category": "video/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "2215181dec88", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 3}
+{"id": "2226015d6670", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 2}
+{"id": "223081160e08", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 3}
+{"id": "22f095000908", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "23170374b70a", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "23282dedb9ee", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "2343aa4f773c", "category": "video/frames", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "23823a6189ee", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 4}
+{"id": "245a02d92e40", "category": "answer", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 5}
+{"id": "2482d3f8ad66", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "248693e848f4", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "24afeb69c4a8", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 27}
+{"id": "24b69ade874c", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "24d727602e26", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "251762fee388", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "258e5749ad6c", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "259f7afd9aaa", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 32}
+{"id": "25d94a003702", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 32}
+{"id": "264df16bbd8a", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 20}
+{"id": "278e8b375bea", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "27d173a1644c", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 5}
+{"id": "2816c9e06eee", "category": "audio/level", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "284385c4e69a", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "287ec71abc60", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "29c8481f65aa", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 4}
+{"id": "2a1382813e3a", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 17}
+{"id": "2a6033c90c6c", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 24}
+{"id": "2a6fbe584b04", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "2b5b4be9b214", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "2ba51369d8fc", "category": "image/convert", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1074: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1074: syntax error while parsing value - invalid string: mis"], "secs": 59}
+{"id": "2bc86cee833c", "category": "video/overlay", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "2c2555cbff24", "category": "video/delivery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "2c52bc30a26a", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 115}
+{"id": "2c7d3c708e5c", "category": "metadata/batch", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 40}
+{"id": "2cd953e1395e", "category": "image/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "2d22af2d36de", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "2d2cff172fe2", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 3}
+{"id": "2d2d4bc944d8", "category": "batch/video", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1585: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1585: syntax error while parsing value - invalid string: mis"], "secs": 37}
+{"id": "2d355c303c48", "category": "video/delivery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 54}
+{"id": "2d533aa64ffe", "category": "audio/join", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "2d76e408f7e0", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 18}
+{"id": "2dc69e573676", "category": "video/subtitles", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "2e46e5b3d756", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 27}
+{"id": "2e4b43864090", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "2ee494cb1ff4", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "2f2910714dce", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 30}
+{"id": "2f39c34c08c0", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "2f440ecd619a", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "2f548ac6290c", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "2f8b9d518378", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 15}
+{"id": "3125cb5ff948", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 15}
+{"id": "3126ae738a24", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "31b0f09257ac", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "31c603d7c08a", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "32304b6c4118", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "3266d42c41b6", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "3311ab4f1862", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "3312bdaf516a", "category": "audio/sox", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1689: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1689: syntax error while parsing value - invalid string: mis"], "secs": 63}
+{"id": "33306dcff082", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 5}
+{"id": "334b565e0f2c", "category": "image/probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "33a60f1a88ec", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "33a89f868992", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 5}
+{"id": "33c2b1e8c81a", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "3401fd0d67bc", "category": "image/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "3424f598c5da", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 85}
+{"id": "3436da115234", "category": "audio/level", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 24}
+{"id": "348043ccb97c", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 46}
+{"id": "3492c792af0c", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 37}
+{"id": "34b99534ed50", "category": "audio/level", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "34f18943ed42", "category": "video/gif", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 37}
+{"id": "356485ab1296", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 36}
+{"id": "35aa77e52976", "category": "image/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 36}
+{"id": "35aedf3a42d8", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 74}
+{"id": "35c4a6719dbe", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 109}
+{"id": "35f97f0f12ee", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 40}
+{"id": "360742f11e34", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "366f8e4a98c0", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 184}
+{"id": "368d032b6a9e", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "36e3e49efdd2", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 201}
+{"id": "371025364d24", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 70}
+{"id": "37642abc012c", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 22}
+{"id": "37814cd7ee48", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 11}
+{"id": "37ddefb74300", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 18}
+{"id": "3822b1e27960", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 32}
+{"id": "38298786177e", "category": "audio/join", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 49}
+{"id": "3871949d0628", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 37}
+{"id": "38b52351ea26", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 35}
+{"id": "3932f86fe208", "category": "audio/join", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 398}
+{"id": "3976cb79fcea", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 54}
+{"id": "397e74d466ac", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 87}
+{"id": "399ece78086a", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 96}
+{"id": "39da9506ae88", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "3ac351509052", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 36}
+{"id": "3ac380ab7b00", "category": "image/combine", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 57}
+{"id": "3ad8bcaabba6", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 16}
+{"id": "3b519a608ef8", "category": "image/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "3bac67d17492", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 18}
+{"id": "3c583cc447c8", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "3cd49d3474e4", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "3cf1a5022528", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 12}
+{"id": "3d7bdfb48190", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "3d9ffe16cd4a", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 250}
+{"id": "3da8bf467328", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "3db1d691600c", "category": "audio/join", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 34}
+{"id": "3dc7bbd72fec", "category": "video/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 156}
+{"id": "3e09abc6ce5e", "category": "video/trim", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 458}
+{"id": "3e0d99f3ea64", "category": "video/convert", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 73}
+{"id": "3f2c26b3a3c6", "category": "audio/metadata", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 148}
+{"id": "3f39175483a2", "category": "image/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 156}
+{"id": "3f59a98bdbe2", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 341}
+{"id": "4017010aeee0", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 7}
+{"id": "3fa10780d6b6", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "3ff2de51c668", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "408c5a878f94", "category": "batch/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "406dfffcabe0", "category": "video/delivery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "4260d5c9aedc", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "4311f563e364", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 9}
+{"id": "414d927df9b2", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "428d82554374", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "43a0101d7074", "category": "audio/visualize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "44067b43c810", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 204}
+{"id": "40773c3c56ec", "category": "video/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 225}
+{"id": "433d2da4cc7c", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 204}
+{"id": "44bd16845284", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 165}
+{"id": "43a9fb8e79a0", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 262}
+{"id": "41ad0df45a8c", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 266}
+{"id": "444a25516c7a", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 11}
+{"id": "42dc85c49e7a", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "4555848d9900", "category": "video/trim", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 115}
+{"id": "44e891d1ad76", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "43518d9407ba", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "464a0e1795c8", "category": "image/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "470f687f94aa", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 185}
+{"id": "43f598b33d74", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 185}
+{"id": "456bfc6ce37a", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 191}
+{"id": "4927b4434e26", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 275}
+{"id": "4458bba06876", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 275}
+{"id": "46699e548fb4", "category": "video/join", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 275}
+{"id": "470fceb7ff6e", "category": "video/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 20}
+{"id": "4a1092aa9aaa", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "4ad0d6b7da4e", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "49a9b4c5f9de", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "4bffdbf8f04e", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "4a26dca25f9c", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 23}
+{"id": "4c55c8fec8a0", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "45419a35433e", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 64}
+{"id": "4b820c55045e", "category": "image/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "4d58fbc8f3ec", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "45a80173f926", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 15}
+{"id": "4e357d13b414", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "46a75bb7955a", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "4f4265f60fe4", "category": "image/compress", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 10}
+{"id": "4766e92c6284", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "49d6473f0cca", "category": "image/resize", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 13}
+{"id": "4ac94f9cc5bc", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "4fccc96b61f2", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 32}
+{"id": "4bad581f08be", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "50cb81424c88", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 18}
+{"id": "4c32d3274d48", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "52533929d5ea", "category": "video/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "4cea9383578c", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "4e32eb095ac6", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "52b3a39170ea", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "53a875704e0c", "category": "image/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "55043d1445a6", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "4edc55e00cc4", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 32}
+{"id": "554a02169b20", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 17}
+{"id": "4fb53b31f890", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "4c274563ad5e", "category": "audio/edit", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1059: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1059: syntax error while parsing value - invalid string: mis"], "secs": 153}
+{"id": "5624770f0540", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "4fcfd9f9deba", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "5187659004e6", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "4c8ebf900df4", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 25}
+{"id": "52965762495a", "category": "audio/join", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 25}
+{"id": "4dcbc90ea712", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 24}
+{"id": "5347986801ea", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "4e76c4d2cf88", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "4fb27fb72da8", "category": "audio/clean", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "4fce7ccfbdc8", "category": "image/crop", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "547615354528", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 31}
+{"id": "50f25c3a757e", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "553fcde0e374", "category": "image/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "5289f171292e", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "561fbc76c8de", "category": "video/frames", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "5342561a3cae", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "569aa23e4354", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "53d53c98b1be", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "5811c0731b42", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "570493c38068", "category": "video/compress", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1331: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1331: syntax error while parsing value - invalid string: mis"], "secs": 126}
+{"id": "595e1e0cce2c", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 14}
+{"id": "586ae727466a", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "59b020d08372", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "55375cc1288c", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 44}
+{"id": "5a2308c29a7c", "category": "video/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "55a0880449f2", "category": "audio/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "5b3626d232c0", "category": "batch/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 21}
+{"id": "565b0f657546", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 16}
+{"id": "5bcce1320de8", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 18}
+{"id": "573fc5aaef86", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "5c4154ce0af8", "category": "video/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "58fcb234830e", "category": "audio/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "5cec9fe836e8", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "5d42ef8db564", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "596ceac285a2", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 20}
+{"id": "5dbe0fe349fc", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "5f38a9edcace", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 14}
+{"id": "5a01d5f0e3ea", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 22}
+{"id": "59690423a980", "category": "recovery", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1539: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1539: syntax error while parsing value - invalid string: mis"], "secs": 135}
+{"id": "5fea45be5c50", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "5b1f810f06ee", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 40}
+{"id": "5b64d4a68724", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 18}
+{"id": "608230a7b030", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 39}
+{"id": "59b7dd84625c", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 54}
+{"id": "5c18b864710c", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 19}
+{"id": "5ad9fc1d93dc", "category": "audio/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 17}
+{"id": "5ce45a10becc", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "61434fe6323e", "category": "video/overlay", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 27}
+{"id": "61a955f0775a", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 14}
+{"id": "625bda97f5f2", "category": "image/compress", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 9}
+{"id": "6352dd80b810", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "638707277698", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "64eeee45208a", "category": "video/join", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 11}
+{"id": "6700460688e6", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 7}
+{"id": "67d77bff6b48", "category": "video/delivery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "684fdf79d366", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "5b461e2cddfe", "category": "recovery", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1982: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1982: syntax error while parsing value - invalid string: mis"], "secs": 103}
+{"id": "68816eee1418", "category": "image/compress", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 20}
+{"id": "5bd036281c72", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "694067806464", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "5ca6c4e786ba", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "6a2e97440ebe", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "6b0767c768b4", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "6c413fb8452e", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "6cc837554d46", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "6dd876ad20ca", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "5d3cdb5188ce", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 71}
+{"id": "5d4d9e119c18", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "5e079f9bd066", "category": "video/join", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "5f81c1358b6a", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "6f50a17c4014", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 65}
+{"id": "6f9dd924bcc4", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "7093ce6373d8", "category": "video/frames", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "603febe1a5e2", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 28}
+{"id": "5d3fe5cd613a", "category": "video/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 244}
+{"id": "6092d41e8b16", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "61642fd0e75c", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "61c8c7bafbc0", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "5d7f1a9231e0", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 30}
+{"id": "5f013ecabb4e", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "5fcd69bad04c", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "62e8539c57b8", "category": "video/join", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 48}
+{"id": "63691ba43cf0", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "604db7e66300", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 35}
+{"id": "60938711adac", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "63ddb1fbdcb6", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 26}
+{"id": "6199511bc76c", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "650cba93311e", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "61d6f6a2d67a", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 25}
+{"id": "633386bffd34", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 18}
+{"id": "6382a448a35c", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "63f44b17942e", "category": "video/trim", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 34}
+{"id": "670387438e0a", "category": "video/frames", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2741: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2741: syntax error while parsing value - invalid string: mis"], "secs": 86}
+{"id": "67ecc853bcdc", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "6863ca29e320", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "688d2f8a2cec", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "66255f7eb11c", "category": "batch/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 35}
+{"id": "6a010bf5c47e", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "676f4c0bcbec", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "6838b948c0e2", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "6a3906a80fc6", "category": "video/frames", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "687b9f00ba1c", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "6b847e51ca5c", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "68dbbce76bba", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "6a20b312ad20", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 9}
+{"id": "6ad97541555a", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "6c618872082a", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 34}
+{"id": "6bb93f9f71bc", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "7140e73f8808", "category": "video/convert", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 316}
+{"id": "722849e19446", "category": "audio/visualize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "72f372148c4a", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "6c8b5010ddb0", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 26}
+{"id": "74bb23d16570", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "6d98099d71b4", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "76db0de2b1b6", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 35}
+{"id": "786d819a167e", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "78c4e458ae04", "category": "video/gif", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "6f37ce78c312", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 34}
+{"id": "793053566bdc", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "6f8eb7ffccbe", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "7039c55c2d66", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "7a16f2c8c868", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 14}
+{"id": "712cc218396c", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "7b6d368a6758", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 6}
+{"id": "72045fee41fe", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "72df0fe7c050", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "747be6b7d366", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "7d030658013e", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 25}
+{"id": "7da8f508ea5a", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "74eaf986a278", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 27}
+{"id": "7de1b12d09fe", "category": "audio/level", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "77e5e6a00408", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "7e680cfcf862", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "8034926a66d8", "category": "audio/level", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "81d4742ae606", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 12}
+{"id": "8227c37c120e", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 11}
+{"id": "82cd982f3db4", "category": "video/trim", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "78883e54cb50", "category": "video/join", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1735: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1735: syntax error while parsing value - invalid string: mis"], "secs": 68}
+{"id": "78efe958f834", "category": "image/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "8364f42fe270", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 31}
+{"id": "79e43265da8e", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "84dacc2e099c", "category": "video/join", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "7b35cf68af76", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "867e47d0cce8", "category": "video/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "87bfacaa4080", "category": "metadata/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "8952b972ea3a", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "6d1407a9f79e", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 308}
+{"id": "6f0202b15364", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 17}
+{"id": "6f7e7db54c4c", "category": "video/gif", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 25}
+{"id": "7ca265d2661a", "category": "audio/join", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2214: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2214: syntax error while parsing value - invalid string: mis"], "secs": 82}
+{"id": "702c7c7706d2", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "70f0c675ca1a", "category": "audio/visualize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "71cf9ab067ac", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "724902df4040", "category": "audio/join", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "89a980d204e8", "category": "recovery", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1405: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1405: syntax error while parsing value - invalid string: mis"], "secs": 94}
+{"id": "8aa5c191b65c", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 44}
+{"id": "73e08aedd15c", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 54}
+{"id": "74bdefe74272", "category": "video/join", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 16}
+{"id": "774850010080", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "7d1f44803604", "category": "video/trim", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1543: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1543: syntax error while parsing value - invalid string: mis"], "secs": 124}
+{"id": "786dd126e226", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 15}
+{"id": "78d746e7541e", "category": "video/convert", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 19}
+{"id": "793687308978", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "7dc5344286ba", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 18}
+{"id": "7ab5d0e7ba52", "category": "audio/clean", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "7e20ee46e55a", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "7c83f43e2ad4", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "7d0a66651754", "category": "video/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "7f7099159076", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "7db8b6d96bbe", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "805955b7019a", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "7df844aab076", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "821fe8190a98", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "82bf19d622d8", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "7f6c9a8c3e9a", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "82f8ec7fbc9c", "category": "image/batch", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "83a25684fc70", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "8580901f4780", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "8c9e3240f256", "category": "image/batch", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2079: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2079: syntax error while parsing value - invalid string: mis"], "secs": 102}
+{"id": "8db2ee34390e", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 16}
+{"id": "878cd3739e9c", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 31}
+{"id": "8ea24de6f806", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "89522879c30a", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "8fa333fcdd00", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "899b80feda1c", "category": "metadata/write", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "8a88bd3b00f8", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 23}
+{"id": "804c1cfc5ea2", "category": "video/compress", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1535: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1535: syntax error while parsing value - invalid string: mis"], "secs": 108}
+{"id": "81e743f0cfd8", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 14}
+{"id": "903fa1688758", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 49}
+{"id": "8280a47bca58", "category": "image/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "90bb22055744", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 19}
+{"id": "82ed181213ac", "category": "audio/metadata", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 17}
+{"id": "918ffcf1428a", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 17}
+{"id": "839eb55ab4dc", "category": "video/gif", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "92edf5ccce7a", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "853b6dc80f9a", "category": "audio/clean", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "8b6a697de9ca", "category": "image/combine", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2302: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2302: syntax error while parsing value - invalid string: mis"], "secs": 107}
+{"id": "93ef115beb9c", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 41}
+{"id": "8d0dc61b0c68", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "8e0964f59e7e", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 13}
+{"id": "9474dd3ea454", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 60}
+{"id": "94d4addb7c0e", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "958030e81624", "category": "video/delivery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "96f2bab939d2", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 11}
+{"id": "869ed895554e", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 140}
+{"id": "97558acfffcc", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "88dd3aa2f864", "category": "audio/clean", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "9813131512c4", "category": "audio/visualize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "8970e8168c7a", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "98da40cc4f44", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "89fddfc28d16", "category": "video/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "8efd7f5ea4fa", "category": "video/delivery", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2913: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2913: syntax error while parsing value - invalid string: mis"], "secs": 106}
+{"id": "8b2a45d909c2", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "90306ae92c28", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "9a7914d9f29c", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 18}
+{"id": "90a888c173a4", "category": "image/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 13}
+{"id": "8ca478a05c4a", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 16}
+{"id": "91705205f70e", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "8df8e709d6fc", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "929a6e1cd45a", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "9b149e3eb554", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 27}
+{"id": "93b2249a0050", "category": "audio/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "9b5c1704d92c", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "946974c537f4", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "8eb1635682c4", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 31}
+{"id": "9ba216946912", "category": "video/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "94c8b8f4a4aa", "category": "video/delivery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 18}
+{"id": "9c445f5f040c", "category": "video/gif", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "9d3983ede5cc", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "9e545f1dfa36", "category": "image/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "9f97d4ff4996", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "a15d2e9af056", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "a30d416c961a", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "a390d223c0f6", "category": "video/subtitles", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "a43ea199785a", "category": "image/probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "a663a4b1810a", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 9}
+{"id": "95559756348e", "category": "video/frames", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2741: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2741: syntax error while parsing value - invalid string: mis"], "secs": 90}
+{"id": "a75baa10e598", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 35}
+{"id": "96a228e2be02", "category": "video/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 18}
+{"id": "a9089cf6e52a", "category": "video/gif", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 10}
+{"id": "974a90bf8ff2", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "a99363d94022", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "ab5d6a16d802", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "97bb032f2c80", "category": "video/gif", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 20}
+{"id": "ac624caa0748", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "ad48902ca458", "category": "image/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "98ce5c06c228", "category": "video/join", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 14}
+{"id": "adeddf334b42", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "aeb43604fc7e", "category": "video/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "af833743df2c", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "9a628f179648", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 32}
+{"id": "9ae22545514e", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "9b2796641712", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "9b7b4d6280a4", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "9c42987cc37a", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 18}
+{"id": "9c9820af2aa8", "category": "video/filter", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "9e3143d40946", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "9f4770d848dc", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "b11693c13300", "category": "audio/convert", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1597: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1597: syntax error while parsing value - invalid string: mis"], "secs": 85}
+{"id": "a0fcfd4d4a9a", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 8}
+{"id": "a2f798a4760c", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "b18215b5e58e", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "a35428f4f004", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "a40153a703d4", "category": "video/visualize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "a589df96e358", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "901944be1b7e", "category": "video/convert", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 320}
+{"id": "b1e4f32c5968", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 46}
+{"id": "a72b02821cdc", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "b2fa223c25d8", "category": "image/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "a82bffed92f6", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "b46a277eb350", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "9076b1d63f72", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "a971d9c211e6", "category": "image/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "b4e4cb2b1014", "category": "video/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "9123f8ccbf66", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 15}
+{"id": "a9e3eefdf03a", "category": "audio/level", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "b56e973f0dc0", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "b601a0213b64", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "b6aaa732e002", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "9289ba1f2e18", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 33}
+{"id": "b7f56f1cf9ae", "category": "video/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "934122e62e44", "category": "audio/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "b8ab3caf77f6", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "b9efbfa0d7c8", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 10}
+{"id": "946715a7b082", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 27}
+{"id": "bc4cefb397a2", "category": "metadata/write", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "94ad0222aa08", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "bd25fb6c4d30", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "bdcfc36fe216", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "9543650533f2", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 13}
+{"id": "be0aef3ed1dc", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "96a119ff6198", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "96feaa3b94c2", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "be9da44ff62c", "category": "audio/join", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 19}
+{"id": "9798194ab44e", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "abbe98124762", "category": "recovery", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1648: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1648: syntax error while parsing value - invalid string: mis"], "secs": 122}
+{"id": "98872c813b74", "category": "image/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "c026d103a9e0", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 41}
+{"id": "995c91a8906c", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 28}
+{"id": "9ac55ad3ef9a", "category": "image/metadata", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "c08cfd7f446e", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 20}
+{"id": "ace1db224128", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 53}
+{"id": "c20d2641f352", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "add31f2d5bfe", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "c3781ce08bc2", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 13}
+{"id": "ae860e57adc6", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "c3e88554bf50", "category": "image/metadata", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "af5254bd10e0", "category": "batch/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "c43d6156ddb8", "category": "video/frames", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "c57cfe9da1ac", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "c65118c9df30", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 12}
+{"id": "c724043d885e", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 32}
+{"id": "c8e7e4e26658", "category": "answer", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 7}
+{"id": "cae6e466376c", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "9b1fc1fc0022", "category": "image/combine", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1579: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1579: syntax error while parsing value - invalid string: mis"], "secs": 122}
+{"id": "9b66864a84e4", "category": "metadata/write", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "cb415f4c65c8", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 31}
+{"id": "9baeafe42826", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 15}
+{"id": "b0efac83611e", "category": "image/combine", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2074: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2074: syntax error while parsing value - invalid string: mis"], "secs": 109}
+{"id": "cbf7f8997958", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 14}
+{"id": "9c6ed0ea390a", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 16}
+{"id": "b17a6c79d7f2", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 20}
+{"id": "ccb196e67c32", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 15}
+{"id": "b1d5e76d8e80", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 18}
+{"id": "9e0d4ca59ed2", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 24}
+{"id": "9eab9040bdfe", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "b2c273d5e1be", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 20}
+{"id": "a0e13c5e7ba8", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 24}
+{"id": "b36991a8a15c", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 30}
+{"id": "ce157a221088", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 62}
+{"id": "b4a77ed3ba78", "category": "image/probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 30}
+{"id": "ce60812366de", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 30}
+{"id": "a2db4e67896a", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 45}
+{"id": "b567408bca88", "category": "image/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "a341feadf5aa", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "cefb035331b2", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "a3eb9cdda4c4", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "b5fe63d9a7b6", "category": "image/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "cf5d697a1b56", "category": "video/subtitles", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 14}
+{"id": "b67e5662d8a2", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "a549af06057e", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 25}
+{"id": "a6cabf3f9fae", "category": "audio/clean", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "d0a4783ba4fa", "category": "video/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 25}
+{"id": "d13189a49002", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 26}
+{"id": "d1f8c9af64b6", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "a7e2ca3d49c4", "category": "video/join", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 58}
+{"id": "d2e7a8e9653e", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "d449456bb1f2", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "a90ec2d3bc22", "category": "audio/level", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "a9b54c0330da", "category": "video/frames", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "d52c89da2ff6", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "d65fbe00009c", "category": "video/delivery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "abb62a227950", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 29}
+{"id": "d6d03b99f3b2", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 18}
+{"id": "acd753db608c", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "ad902e6815c0", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "b722db4e1a96", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 154}
+{"id": "d7649e6a72b6", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 32}
+{"id": "ae5128a7a0d0", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "b875f7ec646a", "category": "metadata/batch", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 16}
+{"id": "aebad16cd578", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 16}
+{"id": "b926ea1e2830", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "bc2942d2b496", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "d815a66b7e40", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 29}
+{"id": "afc443ecde86", "category": "metadata/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 16}
+{"id": "d9016c1637d4", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 19}
+{"id": "b13e271c18dc", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 17}
+{"id": "daaf6bea13f2", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 16}
+{"id": "bd086150b1fe", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 43}
+{"id": "b18e54a893ac", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 22}
+{"id": "dbdf03ab8d62", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "b2314c50195c", "category": "image/compress", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 14}
+{"id": "dcb0e042914a", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "de39cac7a672", "category": "video/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "dfa2331a7092", "category": "image/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "bd8a954fc814", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 60}
+{"id": "b314d238fd8e", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 63}
+{"id": "bdefeb9d87aa", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 24}
+{"id": "dfd722a3fe6a", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 45}
+{"id": "be91e2d04bba", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "b48df91127f4", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 23}
+{"id": "e04d07828018", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 13}
+{"id": "bf4f1b0878a0", "category": "video/convert", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 17}
+{"id": "b530054546f2", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 17}
+{"id": "c086a0b6ce56", "category": "audio/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 22}
+{"id": "e0a91166aca6", "category": "video/gif", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 29}
+{"id": "b5cedb11a476", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 18}
+{"id": "e27b5405030e", "category": "video/convert", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 15}
+{"id": "c132b5e5c956", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 21}
+{"id": "b635ef53e63a", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "e31dca6da6d4", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "c36f205210fe", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "b6c74790a342", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "e3d287e0fdec", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 13}
+{"id": "e47b84c9106e", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "c3db17db69cc", "category": "video/delivery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 33}
+{"id": "e4b944d8e9a0", "category": "video/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "b845c517a67e", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 35}
+{"id": "c43369dc0468", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "b8d695a2778e", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "e53ab6a46808", "category": "video/overlay", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 13}
+{"id": "c52774d951fa", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "b9f0e2e05866", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "c5c3ff90d43e", "category": "video/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 30}
+{"id": "e5ca1a301054", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 50}
+{"id": "bc79e38fc3a6", "category": "video/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 51}
+{"id": "e5ff281f948e", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "bd546e1b9524", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "e704ff5f7da0", "category": "audio/convert", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "c71473a99dd2", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 37}
+{"id": "bddd31b88c52", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 12}
+{"id": "e777c3ae885a", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 25}
+{"id": "c89c4d297c02", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 27}
+{"id": "e7e53162973e", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 8}
+{"id": "e8e8866772fa", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "ca7a8d6ee93e", "category": "video/delivery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "ea31f976abfe", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "caf559f2e59e", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "eae16d74cc34", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "cbb634710a6e", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "eba760daea14", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "cc6d2e7bbeda", "category": "image/combine", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "ec5655700984", "category": "audio/visualize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "cd9fb75d0596", "category": "video/resize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "ce3d0b48b626", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "cecefe5219ac", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "be539633859e", "category": "video/overlay", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1656: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1656: syntax error while parsing value - invalid string: mis"], "secs": 87}
+{"id": "cf4f733e9b7a", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 25}
+{"id": "bf3cae86272a", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "d00d24fab4da", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "c02700a65152", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "d0f88465ba3c", "category": "image/filter", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "c09fecb39168", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "c332760ed17c", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "d1e5ee22b900", "category": "audio/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "d26dbc12d674", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "c384db842500", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "d3a6ef5eac4e", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "c3fabda998dc", "category": "audio/metadata", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "d49db2cd5bd4", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 22}
+{"id": "c4a65740a39a", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 27}
+{"id": "c59a8127c022", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "d599ddb5d680", "category": "video/subtitles", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "d691ad3e5cfe", "category": "video/gif", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "d70e89f5fad6", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 4}
+{"id": "d7d104506e0c", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "d8a8ad1c0aaa", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "da4195c27214", "category": "video/frames", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "db6df712260e", "category": "audio/level", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 4}
+{"id": "dc40241e1748", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "c6c2e1d56022", "category": "batch/video", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1484: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1484: syntax error while parsing value - invalid string: mis"], "secs": 52}
+{"id": "dcf8cdeb96fc", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "c843a3752f24", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "df6737e9a04c", "category": "image/combine", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "c9ff0b35254e", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "dfcc4400258a", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "caf298b9764c", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "cba004de08ee", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "cc4217f884f2", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "cd91857459b6", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 5}
+{"id": "ce2b131bb536", "category": "video/frames", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "e04b73e75afa", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 28}
+{"id": "cea4cf47d9c8", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "cf41edfca3b0", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "ed3780d3b3fa", "category": "video/compress", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 240}
+{"id": "e094a4033ee0", "category": "video/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "e1985db290d0", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "eeb27f01ff60", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "e2df952c781c", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "ef5bb228d356", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 12}
+{"id": "cfb607907daa", "category": "video/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 39}
+{"id": "e3906416aa3e", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "d0a486b34290", "category": "audio/clean", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "e439a7b3361e", "category": "image/combine", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "d15150d5062e", "category": "video/subtitles", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 14}
+{"id": "e49f4e3eae54", "category": "image/compress", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "efccd25b826a", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 43}
+{"id": "d22e98ee0874", "category": "batch/video", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 16}
+{"id": "e4ef7050aff6", "category": "audio/edit", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 21}
+{"id": "d3266315f92a", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "d46cfa12d194", "category": "audio/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "e5c3e7c03d7a", "category": "video/visualize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 11}
+{"id": "f1ebae0f92ea", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 30}
+{"id": "f318fdc94050", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 12}
+{"id": "d561e705c458", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["TypeError(\"'NoneType' object is not subscriptable\")"], "secs": 17}
+{"id": "f3884264d912", "category": "audio/level", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "f4ab5f73dcfa", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 9}
+{"id": "d66a8030bd50", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "f618a5336ba2", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "f6c179c0362c", "category": "audio/metadata", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "f730274d7a20", "category": "audio/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "d7003ab2234a", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 39}
+{"id": "f85b0b36a59c", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 15}
+{"id": "f8a3312b1b00", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "d7667156ffd6", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 15}
+{"id": "fa88998a7aba", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "fbfeb7a3ecc6", "category": "audio/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "fcc1f09f3a9e", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "fd7cc25e3372", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "d843d74559c2", "category": "clarify", "pass": false, "status": "done", "steps": 1, "errors": ["ran a command instead of asking/explaining"], "secs": 41}
+{"id": "ff2e57fca5b4", "category": "image/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "d9861f95cc00", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "db06abdb569a", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "dc07e956615c", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 5}
+{"id": "dce7710f8b70", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "de69b02849b8", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "dfbdeb2bb6f8", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 25}
+{"id": "dfee520d9258", "category": "video/trim", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "e08e558c0c3e", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "e18919d1a1c6", "category": "video/overlay", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "e5e5ca66356e", "category": "video/orientation", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 260}
+{"id": "e6d1341aeb4e", "category": "video/delivery", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "e74417258652", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 6}
+{"id": "e7a2ce3af666", "category": "image/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "e8e83c807934", "category": "audio/level", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "e987c5627b72", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "eabaac4c3f72", "category": "video/metadata", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "e29aa565b8f0", "category": "image/combine", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1956: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1956: syntax error while parsing value - invalid string: mis"], "secs": 82}
+{"id": "e3246baf227e", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "e3d941ab9b96", "category": "recovery", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "e49605003e82", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "e4e542c077f6", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 5}
+{"id": "e5b7c6f33c34", "category": "video/speed", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "e5e10ed708e0", "category": "recovery", "pass": false, "status": "done", "steps": 1, "errors": ["IndexError('list index out of range')"], "secs": 8}
+{"id": "e6b1bf609cd2", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "e729703b4134", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "e77c7ccdbb5e", "category": "audio/sox", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "eb7e8b96ac6c", "category": "audio/edit", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2137: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2137: syntax error while parsing value - invalid string: mis"], "secs": 79}
+{"id": "ec4dfc3912e6", "category": "metadata/batch", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 9}
+{"id": "ed0c6959c992", "category": "video/speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "ee254db8dfe2", "category": "video/audio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 24}
+{"id": "ef372c7b179c", "category": "audio/clean", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "ef99fe9f3700", "category": "video/overlay", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 6}
+{"id": "e87b9669b8e2", "category": "audio/convert", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1755: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 1755: syntax error while parsing value - invalid string: mis"], "secs": 76}
+{"id": "e9080cecb262", "category": "audio/edit", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 13}
+{"id": "ea950e4e36a6", "category": "audio/level", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "f1e59142dc86", "category": "video/orientation", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 28}
+{"id": "eb1a9269be8a", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "f2aa4f1008c8", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 41}
+{"id": "ebf2e49fe5c0", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 29}
+{"id": "ecd5c519f93c", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 34}
+{"id": "f34d510f2ed0", "category": "video/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 38}
+{"id": "ed9af0548282", "category": "video/gif", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "f44365f92d9a", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "eed8ab28ab36", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "ef85d099639e", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "f59780869fb2", "category": "image/batch", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 22}
+{"id": "eff5df04efbe", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "f2861d15cb92", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 7}
+{"id": "f6882d941e28", "category": "video/crop", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 9}
+{"id": "f70878c9c8ea", "category": "image/convert", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "f32cd4f06e92", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 8}
+{"id": "f7a495e62fc6", "category": "video/frames", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "f43dce40fc08", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "f8642121eec6", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "f4bc137952a6", "category": "metadata/read", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 7}
+{"id": "f9ffefaff700", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}
+{"id": "f65092f24868", "category": "video/audio", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 8}
+{"id": "f6f68e5654ba", "category": "metadata/write", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "f7752887507e", "category": "image/edit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "fbcd56657fe6", "category": "video/overlay", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 34}
+{"id": "f86149bf83c8", "category": "audio/visualize", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "f90c7dc95daa", "category": "video/overlay", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "fb9ce2561dc0", "category": "probe", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "fc6d1df8d1a8", "category": "video/trim", "pass": false, "status": "done", "steps": 1, "errors": ["check failed"], "secs": 10}
+{"id": "fd2d3a2e3f78", "category": "video/resize", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 10}
+{"id": "fca1a3d0e174", "category": "video/speed", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2214: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2214: syntax error while parsing value - invalid string: mis"], "secs": 82}
+{"id": "fd41b5bee19c", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 7}
+{"id": "fe62248c5cdc", "category": "metadata/write", "pass": false, "status": "done", "steps": 1, "errors": ["no output file"], "secs": 11}
+{"id": "ffeb79459baa", "category": "audio/sox", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "fe1ef0142860", "category": "video/speed", "pass": false, "status": "http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2200: syntax error while parsing value - invalid string: mis", "steps": 1, "errors": ["http 500: {\"error\":{\"code\":500,\"message\":\"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2200: syntax error while parsing value - invalid string: mis"], "secs": 73}
+{"id": "ff4b26cc2bfa", "category": "image/convert", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 6}

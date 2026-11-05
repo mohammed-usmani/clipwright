@@ -1,0 +1,3 @@
+[{"id":0,"path":"models/lora-qwen08b-full.gguf","scale":1.0,"task_name":"","prompt_prefix":""}]
+[{"id":0,"path":"models/lora-qwen08b-burak29.gguf","scale":1.0,"task_name":"","prompt_prefix":""}]
+[]

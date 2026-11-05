@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clipwright</title>
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar" aria-label="Jobs">
+      <div class="brand">
+        <span class="mark" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24"><path d="M7 5l6 3.6v6.8L7 19z"/><path d="M15 9.5l4 2.5-4 2.5z"/></svg>
+        </span>
+        <span>Clipwright</span>
+        <button class="icon-btn" id="hide-side" aria-label="Hide sidebar"><i class="ph ph-sidebar-simple"></i></button>
+      </div>
+      <button class="new-job" id="new-job"><i class="ph-bold ph-plus"></i>New job</button>
+      <nav class="recents" id="recents"></nav>
+      <div class="status-card">
+        <div class="model" id="model" role="status">Checking the model</div>
+        <div class="model-sub">Clipwright 4B · Q8</div>
+      </div>
+    </aside>
+
+    <main class="chat">
+      <header class="topbar">
+        <button class="icon-btn" id="show-side" aria-label="Show sidebar"><i class="ph ph-sidebar-simple"></i></button>
+        <h1 id="title"></h1>
+        <span class="pill working" id="working" hidden><span class="dot"></span>Working</span>
+      </header>
+
+      <div class="scroll" id="scroll">
+        <div class="column">
+          <section class="hello">
+            <span class="badge"><i class="ph-bold ph-lock-simple"></i>PRIVATE · NOTHING LEAVES THIS MAC</span>
+            <h2>What should we make?</h2>
+            <p>Drop in a video, track, photo or PDF and say what you want done. Clipwright writes the ffmpeg, ImageMagick or SoX commands, runs them, and checks the result.</p>
+          </section>
+          <div class="thread" id="thread"></div>
+        </div>
+      </div>
+
+      <div class="dock">
+        <form class="composer" id="composer">
+          <label class="dropzone" id="dropzone">
+            <span class="dz-icon"><i class="ph ph-upload-simple"></i></span>
+            <span class="dz-text">
+              <span>Drop files here, or <em>browse</em></span>
+              <span class="mono">MP4 · MOV · WEBM · MP3 · WAV · FLAC · JPG · PNG · HEIC · GIF · PDF</span>
+            </span>
+            <input id="file-input" type="file" multiple hidden>
+          </label>
+          <ul class="attachments" id="attachments" aria-label="Attached files"></ul>
+          <label for="prompt" class="sr-only">Describe the edit</label>
+          <textarea id="prompt" rows="2"></textarea>
+          <div class="composer-row">
+            <button type="button" class="icon-btn" id="attach" aria-label="Attach files"><i class="ph ph-paperclip"></i></button>
+            <span class="chip"><span class="dot" id="chip-dot"></span>Clipwright 4B</span>
+            <span class="hint" id="hint"></span>
+            <button type="button" class="stop" id="stop" hidden><i class="ph-fill ph-stop"></i>Stop</button>
+            <button type="submit" class="send" id="send" aria-label="Run"><i class="ph-bold ph-arrow-up"></i></button>
+          </div>
+        </form>
+        <p class="composer-error" id="composer-error" role="alert"></p>
+        <section class="recipes" id="recipes">
+          <div class="recipes-label">Or start from a recipe</div>
+          <div class="recipe-grid">
+            <button type="button" data-prompt="Make a 5 second GIF from the start, 480px wide"><span class="flow"><b>MP4</b><i class="ph ph-arrow-right"></i><b class="to">GIF</b></span><span><strong>Clip to GIF</strong><small>First 5 seconds, 480px wide</small></span></button>
+            <button type="button" data-prompt="Compress this to under 16 MB for WhatsApp and keep it sharp"><span class="flow"><b>MOV</b><i class="ph ph-arrow-right"></i><b class="to">MP4</b></span><span><strong>Shrink for WhatsApp</strong><small>Under 16 MB, keeps it sharp</small></span></button>
+            <button type="button" data-prompt="Remove the 50 Hz hum from this recording"><span class="flow"><b>WAV</b><i class="ph ph-arrow-right"></i><b class="to">WAV</b></span><span><strong>Remove the hum</strong><small>Clean a 50 Hz mains buzz</small></span></button>
+            <button type="button" data-prompt="Combine these scans into one grayscale PDF, in order"><span class="flow"><b>JPG</b><i class="ph ph-arrow-right"></i><b class="to">PDF</b></span><span><strong>Scans to one PDF</strong><small>In order, grayscale</small></span></button>
+          </div>
+          <p class="footnote">Runs ffmpeg, ImageMagick, SoX and ExifTool in a sandbox. Your originals are never changed.</p>
+        </section>
+      </div>
+    </main>
+
+    <aside class="panel" id="panel" aria-label="File viewer" hidden>
+      <header class="panel-head">
+        <span class="pill" id="panel-badge"></span>
+        <span class="panel-name" id="panel-name"></span>
+        <button class="icon-btn" id="panel-close" aria-label="Close viewer"><i class="ph ph-x"></i></button>
+      </header>
+      <div class="tabs" id="tabs" role="tablist">
+        <button role="tab" data-tab="result">Result</button>
+        <button role="tab" data-tab="compare">Before / after</button>
+        <button role="tab" data-tab="commands">Commands</button>
+      </div>
+      <div class="stage" id="stage"></div>
+      <div class="stats" id="stats"></div>
+      <dl class="spec" id="spec"></dl>
+      <p class="panel-note" id="panel-note"></p>
+      <footer class="panel-foot" id="panel-foot">
+        <a class="btn primary" id="panel-download"><i class="ph-bold ph-download-simple"></i><span id="dl-label">Download</span><span class="mono dim" id="dl-size"></span></a>
+        <a class="btn" id="panel-all">Download all · .zip</a>
+        <button type="button" class="btn" id="panel-use"><i class="ph-bold ph-arrow-bend-down-left"></i><span>Use for next edit</span></button>
+      </footer>
+    </aside>
+  </div>
+
+  <div class="drop-veil" id="drop-veil" hidden>
+    <div><i class="ph ph-tray-arrow-down"></i><span>Drop to attach</span></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

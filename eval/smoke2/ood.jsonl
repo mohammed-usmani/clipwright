@@ -1,0 +1,2 @@
+{"id": "o_v01", "category": "ood/video", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "o_v02", "category": "ood/video", "pass": false, "status": "done", "steps": 1, "errors": ["trip_5MB.mp4: size 5.2 MB > 5"], "secs": 14}
