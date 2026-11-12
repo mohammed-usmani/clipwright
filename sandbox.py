@@ -10,8 +10,10 @@ import os
 import re
 import shlex
 import signal
+import socket
 import subprocess
 
+RUNNER = os.environ.get("CLIPWRIGHT_RUNNER")  # unix socket of the isolated runner container (compose.yaml); unset = run here
 ALLOWED = {"ffmpeg", "ffprobe", "magick", "sox", "soxi", "exiftool"}
 TIMEOUT = 300
 MEDIA_EXT = {".mp4", ".mov", ".mkv", ".webm", ".avi", ".gif", ".mp3", ".wav", ".m4a", ".m4r", ".flac",
@@ -117,10 +119,34 @@ def _work_files(wd):
 HIDDEN = {"request.txt", "trajectory.jsonl", "final.txt", "status.txt"}
 
 
+def _exec(argv, cwd=None, timeout=TIMEOUT):
+    """Run argv, in the runner container when CLIPWRIGHT_RUNNER is set. Returns (returncode, stdout, stderr);
+    returncode is None on timeout."""
+    if not RUNNER:
+        return _local(argv, cwd, timeout)
+    with socket.socket(socket.AF_UNIX) as s:
+        s.settimeout(timeout + 30)
+        s.connect(RUNNER)
+        s.sendall(json.dumps({"argv": argv, "cwd": cwd, "timeout": timeout}).encode() + b"\n")
+        r = json.loads(s.makefile().readline())
+    return r["rc"], r["out"], r["err"]
+
+
+def _local(argv, cwd, timeout):
+    p = subprocess.Popen(argv, cwd=cwd, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                         text=True, errors="replace", start_new_session=True)
+    try:
+        out, err = p.communicate(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        os.killpg(p.pid, signal.SIGKILL)  # kills ffmpeg too, not just bash
+        p.communicate()
+        return None, "", ""
+    return p.returncode, out, err
+
+
 def probe(path):
-    r = subprocess.run(["ffprobe", "-v", "error", "-show_format", "-show_streams", "-of", "json", path],
-                       capture_output=True, text=True)
-    return json.loads(r.stdout) if r.returncode == 0 and r.stdout.strip() else None
+    rc, out, _ = _exec(["ffprobe", "-v", "error", "-show_format", "-show_streams", "-of", "json", path], timeout=60)
+    return json.loads(out) if rc == 0 and out.strip() else None
 
 
 def _size(n):
@@ -144,10 +170,10 @@ def _summarize(path):
             return f"UNREADABLE: not a valid PDF, {size}"
         return f"pdf document, {len(re.findall(rb'/Type\s*/Page[^s]', data))} page(s), {size}"
     if ext in (".jpg", ".jpeg", ".png", ".webp", ".heic", ".ico", ".tif", ".tiff", ".svg"):
-        r = subprocess.run(["magick", "identify", "-format", "%m %w %h %A|", path], capture_output=True, text=True)
-        if r.returncode == 0:
-            first = r.stdout.split("|")[0].split()
-            n = r.stdout.count("|")
+        rc, out, _ = _exec(["magick", "identify", "-format", "%m %w %h %A|", path], timeout=60)
+        if rc == 0:
+            first = out.split("|")[0].split()
+            n = out.count("|")
             alpha = ", alpha" if first[3].lower() not in ("undefined", "false") else ""
             extra = f", {n} sizes" if n > 1 else ""
             return f"image {first[0]} {first[1]}x{first[2]}{alpha}{extra}, {size}"
@@ -219,19 +245,14 @@ def run(wd, cmd, foreach=None, timeout=TIMEOUT):
             split_segments(c)  # validation only; bash runs it so globs and quoting behave like a terminal
         except Rejected as e:
             return {"exit_code": 1, "error": f"rejected: {e}"}
-        p = subprocess.Popen(["bash", "-c", c], cwd=wd, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE,
-                             stderr=subprocess.PIPE, text=True, errors="replace", start_new_session=True)
-        try:
-            out, err = p.communicate(timeout=timeout)
-        except subprocess.TimeoutExpired:
-            os.killpg(p.pid, signal.SIGKILL)  # kills ffmpeg too, not just bash
-            p.communicate()
+        rc, out, err = _exec(["bash", "-c", c], cwd=wd, timeout=timeout)
+        if rc is None:
             failures.append(f"timed out after {timeout}s (killed); use a faster preset, a shorter clip, or a lower resolution")
             continue
         stdout += out
         stderr_all += err
-        if p.returncode != 0:
-            failures.append(_tail(err) or f"exited {p.returncode}")
+        if rc != 0:
+            failures.append(_tail(err) or f"exited {rc}")
     new = [p for p in _work_files(wd) if before.get(p) != os.path.getmtime(p)]
     res = {"exit_code": 1 if failures else 0}
     if foreach:

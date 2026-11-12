@@ -17,13 +17,31 @@ On `test_v2`, a harder 154-task execution-checked set (`test_tasks.py`):
 
 ## Web app
 
+**With Docker (any OS, isolated):** run the model natively so it keeps the GPU / Metal, and the app plus its tools in containers. Nothing to install besides Docker and [llama.cpp](https://github.com/ggml-org/llama.cpp).
+
+```bash
+llama-server -hf Ray1239/clipwright-4b:Q8_0 --jinja -c 32768 --port 8080   # the model, native
+docker compose up --build                                        # http://127.0.0.1:8765
+```
+
+Model on another port or another server (Ollama, LM Studio, vLLM...): `CLIPWRIGHT_LLM=http://host.docker.internal:11434/v1/chat/completions docker compose up`. On Linux, start llama-server with `--host 0.0.0.0` so the container can reach it.
+
+**Without Docker (macOS, tools from Homebrew):**
+
 ```bash
 app/run.sh        # starts llama-server with the 4B GGUF (if not running) and the app on http://127.0.0.1:8765
 ```
 
 A chat-style UI (`app/`, FastAPI + plain JS): upload video, audio, images or PDFs, describe the edit, and follow the model's commands live. Results open in a side panel with a before/after slider, size and format changes, and the exact commands it ran. Each follow-up works on the latest result by default, and any earlier version or the original can be picked instead. Everything runs on your machine.
 
-> **Sandbox note:** `sandbox.py` checks commands (tool allowlist, no shell operators, no absolute or `../` paths), but it is not OS-level isolation: the tools themselves can still reach the network or read files through their own URL and protocol features. Container-based isolation for the command runner is planned; until then, run the app only on files you trust.
+**Isolation.** `sandbox.py` checks every command (tool allowlist, only `&&`, no absolute or `../` paths), but the tools have their own URL and file features, so under Docker the commands run in a separate `runner` container:
+
+- no network at all (`network_mode: none`): `ffmpeg -i https://...` or `magick https://...` fail
+- read-only root filesystem, writable only `/jobs` and a `/tmp` tmpfs
+- non-root user, every Linux capability dropped, `no-new-privileges`, PID and memory limits
+- the app talks to it over a unix socket on a shared volume, never the Docker socket; `runner.py` re-checks each request (allowed tools only, inside `/jobs`)
+
+The app container has network only to reach the model. Without Docker, commands run as your user with only the `sandbox.py` checks, so use that mode only on files you trust.
 
 ## V1 / V2 results (0.8B)
 

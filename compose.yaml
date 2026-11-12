@@ -1,0 +1,37 @@
+# Clipwright in Docker. The model runs natively (llama-server, Ollama, LM Studio...), so it keeps the GPU / Metal.
+#   docker compose up --build     -> http://127.0.0.1:8765
+# The app reaches the model at CLIPWRIGHT_LLM. The media commands run in `runner`, which has no network.
+x-common: &common
+  build: .
+  image: clipwright
+  read_only: true
+  tmpfs: [/tmp]
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  environment:
+    CLIPWRIGHT_JOBS: /jobs
+    CLIPWRIGHT_RUNNER: /run/clipwright/runner.sock
+  volumes: [jobs:/jobs, sock:/run/clipwright]
+
+services:
+  runner:
+    <<: *common
+    command: python runner.py
+    network_mode: none
+    pids_limit: 256
+    mem_limit: 4g
+
+  app:
+    <<: *common
+    command: uvicorn app.server:app --host 0.0.0.0 --port 8765
+    ports: ["127.0.0.1:8765:8765"]
+    environment:
+      CLIPWRIGHT_JOBS: /jobs
+      CLIPWRIGHT_RUNNER: /run/clipwright/runner.sock
+      CLIPWRIGHT_LLM: ${CLIPWRIGHT_LLM:-http://host.docker.internal:8080/v1/chat/completions}
+    extra_hosts: ["host.docker.internal:host-gateway"]  # Linux; Docker Desktop and OrbStack already have it
+    depends_on: [runner]
+
+volumes:
+  jobs:
+  sock:

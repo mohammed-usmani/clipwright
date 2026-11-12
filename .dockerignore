@@ -1,0 +1,6 @@
+# Allowlist: only the code the app needs (never .env, models, data, user jobs)
+*
+!*.py
+!app/server.py
+!app/static
+!app/requirements.txt
