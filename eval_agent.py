@@ -37,6 +37,7 @@ V1_SYSTEM = ("You are an expert video engineer. Translate the user's natural lan
              "Output ONLY the raw FFmpeg command. Do not provide markdown formatting, explanations, or quotes.")
 
 
+EXTRA = {}  # extra request fields merged into every call (grpo.py: the current adapter's "model" name, "top_p")
 API = {}  # set by --api-model: {"model", "key", "price_in", "price_out", "budget", "ledger"} for a paid API run
 
 
@@ -63,6 +64,7 @@ def chat(url, msgs, tools, scale, temp=0.0, lora_id=0, n_lora=1):
         body["chat_template_kwargs"] = {"enable_thinking": False}
     if tools:
         body["tools"] = tools
+    body.update(EXTRA)
     if scale is not None:  # only when the server was started with --lora (one entry per adapter, in load order)
         body["lora"] = [{"id": i, "scale": scale if i == lora_id else 0.0} for i in range(n_lora)]
     req = urllib.request.Request(url, json.dumps(body).encode(), headers)
