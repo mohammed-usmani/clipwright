@@ -1,0 +1,2 @@
+{"id": "a01", "category": "v2/A1 end card + voiceover", "pass": false, "status": "step limit", "steps": 15, "errors": ["*.mp4: found 0 file(s)"], "secs": 106}
+{"id": "a02", "category": "v2/A1 end card + voiceover", "pass": false, "status": "loop", "steps": 12, "errors": ["*.mp4: found 0 file(s)"], "secs": 111}

@@ -1,0 +1,7 @@
+{
+ "model": "anthropic/claude-sonnet-5-5",
+ "spent": 0.052657999999999996,
+ "calls": 6,
+ "tokens_in": 14069,
+ "tokens_out": 2452
+}

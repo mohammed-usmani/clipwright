@@ -1,0 +1,7 @@
+{
+ "model": "qwen3.8-27b-fp8",
+ "spent": 0.0,
+ "calls": 160,
+ "tokens_in": 582371,
+ "tokens_out": 19843
+}

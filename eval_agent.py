@@ -37,16 +37,67 @@ V1_SYSTEM = ("You are an expert video engineer. Translate the user's natural lan
              "Output ONLY the raw FFmpeg command. Do not provide markdown formatting, explanations, or quotes.")
 
 
+API = {}  # set by --api-model: {"model", "key", "price_in", "price_out", "budget", "ledger"} for a paid API run
+
+
+class OutOfCredit(Exception):
+    """The API refused for billing reasons (or our budget is spent): stop the whole run, keep everything saved."""
+
+
 def chat(url, msgs, tools, scale, temp=0.0, lora_id=0, n_lora=1):
-    body = {"messages": msgs, "temperature": temp, "top_p": 0.8 if temp else 1.0, "max_tokens": MAX_TOKENS,
-            "chat_template_kwargs": {"enable_thinking": False}}
+    body = {"messages": msgs, "temperature": temp, "top_p": 0.8 if temp else 1.0, "max_tokens": MAX_TOKENS}
+    headers = {"Content-Type": "application/json"}
+    if API:
+        if API["spent"] >= API["budget"]:
+            raise OutOfCredit(f"budget ${API['budget']:.2f} reached")
+        body["model"] = API["model"]
+        body["max_tokens"] = 4096
+        body.pop("top_p")
+        body["messages"] = [{k: v for k, v in m.items() if k != "mapped_cmd"} for m in msgs]
+        headers["Authorization"] = "Bearer " + API["key"]
+        if API.get("no_think"):  # Qwen-style switch, same as the local runs
+            body["chat_template_kwargs"] = {"enable_thinking": False}
+        if API.get("priority") is not None:  # the user's shared vLLM server: every call must send priority 100
+            body["priority"] = API["priority"]
+    else:
+        body["chat_template_kwargs"] = {"enable_thinking": False}
     if tools:
         body["tools"] = tools
     if scale is not None:  # only when the server was started with --lora (one entry per adapter, in load order)
         body["lora"] = [{"id": i, "scale": scale if i == lora_id else 0.0} for i in range(n_lora)]
-    req = urllib.request.Request(url, json.dumps(body).encode(), {"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=900) as r:
-        return json.load(r)["choices"][0]
+    req = urllib.request.Request(url, json.dumps(body).encode(), headers)
+    try:
+        for attempt in range(6 if API else 1):  # API runs ride out short network or server blips (~5 min total)
+            try:
+                with urllib.request.urlopen(req, timeout=900) as r:
+                    data = json.load(r)
+                break
+            except urllib.error.HTTPError as e:
+                if not (API and e.code >= 500) or attempt == 5:
+                    raise
+            except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+                if not API:
+                    raise
+                if attempt == 5:
+                    raise OutOfCredit(f"endpoint unreachable after retries: {e}")
+            time.sleep(10 * 2 ** min(attempt, 4))
+    except urllib.error.HTTPError as e:
+        msg = e.read().decode(errors="replace")[:300]
+        if API and (e.code in (401, 402, 403) or re.search(r"balance|credit|quota|payment|insufficient", msg, re.I)):
+            raise OutOfCredit(f"http {e.code}: {msg}")
+        raise urllib.error.HTTPError(e.url, e.code, msg, e.headers, None)
+    if API:  # running cost, saved after every call so a crash or an empty balance never loses the tally
+        u = data.get("usage") or {}
+        cost = u.get("estimated_cost")
+        if cost is None:
+            cost = u.get("prompt_tokens", 0) * API["price_in"] / 1e6 + u.get("completion_tokens", 0) * API["price_out"] / 1e6
+        API["spent"] += cost
+        API["tokens_in"] += u.get("prompt_tokens", 0)
+        API["tokens_out"] += u.get("completion_tokens", 0)
+        API["calls"] += 1
+        json.dump({k: API[k] for k in ("model", "spent", "calls", "tokens_in", "tokens_out")},
+                  open(API["ledger"], "w"), indent=1)
+    return data["choices"][0]
 
 
 def map_v1_paths(cmd, names):
@@ -126,7 +177,7 @@ def run_job(row, wd, url, scale, guide=False, temp=0.0, lora_id=0, n_lora=1, one
         try:
             ch = chat(url, msgs, row["tools"], scale, temp, lora_id, n_lora)
         except urllib.error.HTTPError as e:  # e.g. prompt exceeds the context window
-            status = f"http {e.code}: {e.read().decode(errors='replace')[:200]}"
+            status = f"http {e.code}: {str(e.msg)[:200]}"
             break
         except (TimeoutError, urllib.error.URLError) as e:  # server stalled (e.g. swapping): record it, rerun later
             status = f"timeout: {e}"
@@ -190,6 +241,15 @@ def main():
     ap.add_argument("--one-shot", action="store_true", help="score after the first command (no feedback, no retries)")
     ap.add_argument("--shard", help="K/N: run only rows K, K+N, K+2N... (split one run across processes)")
     ap.add_argument("--v1", action="store_true", help="V1 mode: V1's prompt, one raw command, paths mapped, run once")
+    ap.add_argument("--api-model", help="paid OpenAI-compatible API model, e.g. anthropic/claude-sonnet-5-5 (with --url)")
+    ap.add_argument("--api-key-env", default="DEEPINFRA_API_KEY", help="key name in --env-file (never printed)")
+    ap.add_argument("--env-file", default=os.path.join(HERE, ".env"))
+    ap.add_argument("--price", default="2,10", help="$ per 1M input,output tokens (used if the API reports no cost)")
+    ap.add_argument("--no-think", action="store_true", help="API runs: ask the model not to think (Qwen chat template)")
+    ap.add_argument("--priority", type=int, help="API runs: vLLM request priority (the user's server needs 100)")
+    ap.add_argument("--env-url", help="take the API base URL from this key in --env-file (e.g. BASE_URL)")
+    ap.add_argument("--env-model", help="take the API model name from this key in --env-file (e.g. MODEL_NAME)")
+    ap.add_argument("--budget", type=float, default=1.5, help="stop before spending more than this many $ in total")
     ap.add_argument("--report", nargs="+", help="print pass rates for these run names and exit")
     a = ap.parse_args()
     if a.report:
@@ -203,18 +263,42 @@ def main():
         rows = rows[k::n]
     os.makedirs(EVAL, exist_ok=True)
     out_f = os.path.join(EVAL, f"{a.name}.jsonl")
+    env = {l.split("=", 1)[0]: l.split("=", 1)[1].strip().strip("'\"") for l in open(a.env_file)
+           if "=" in l and not l.lstrip().startswith("#")} if (a.api_model or a.env_model) else {}
+    if a.env_model:
+        a.api_model = env[a.env_model]
+    if a.env_url:
+        base = env[a.env_url].rstrip("/")
+        a.url = base if base.endswith("/chat/completions") else base + "/chat/completions"
+    if a.api_model:
+        key = env.get(a.api_key_env)
+        if not key:
+            raise SystemExit(f"{a.api_key_env} not found in {a.env_file}")
+        ledger = os.path.join(EVAL, f"{a.name}.cost.json")
+        prev = json.load(open(ledger)) if os.path.exists(ledger) else {}
+        pin, pout = map(float, a.price.split(","))
+        API.update(no_think=a.no_think, priority=a.priority, model=a.api_model, key=key, price_in=pin, price_out=pout, budget=a.budget, ledger=ledger,
+                   spent=prev.get("spent", 0.0), calls=prev.get("calls", 0),
+                   tokens_in=prev.get("tokens_in", 0), tokens_out=prev.get("tokens_out", 0))
     done = {json.loads(l)["id"] for l in open(out_f)} if os.path.exists(out_f) else set()
     for i, row in enumerate(rows, 1):
         if row["id"] in done:
             continue
         t = time.time()
-        r = run_job(row, os.path.join(EVAL, a.name, "jobs", row["id"]), a.url, a.lora_scale, a.guide, a.temperature,
-                    a.lora_id, a.n_lora, a.one_shot, a.v1)
+        try:
+            r = run_job(row, os.path.join(EVAL, a.name, "jobs", row["id"]), a.url, a.lora_scale, a.guide,
+                        a.temperature, a.lora_id, a.n_lora, a.one_shot, a.v1)
+        except OutOfCredit as e:  # this job is not recorded, so a rerun with the same --name retries it
+            print(f"STOPPED before finishing {row['id']}: {e}. {len(done)} earlier + finished jobs are saved; "
+                  f"top up and rerun the same command to continue.", flush=True)
+            break
         r["secs"] = round(time.time() - t)
         with open(out_f, "a") as f:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
+        done.add(row["id"])
+        spent = f" ${API['spent']:.3f}" if API else ""
         print(f"[{i}/{len(rows)}] {r['id']} {'PASS' if r['pass'] else 'fail'} {r['status']}, {r['steps']} steps, "
-              f"{r['secs']}s {'; '.join(r['errors'])[:100]}", flush=True)
+              f"{r['secs']}s{spent} {'; '.join(r['errors'])[:100]}", flush=True)
     report([a.name])
 
 
