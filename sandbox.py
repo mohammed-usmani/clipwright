@@ -225,8 +225,9 @@ def _summarize_outputs(wd, paths, cap=6):
     return shown
 
 
-def run(wd, cmd, foreach=None, timeout=TIMEOUT):
+def run(wd, cmd, foreach=None, timeout=None):
     """Execute one tool call. Returns the dict the model sees as the tool result."""
+    timeout = timeout or TIMEOUT  # read at call time, so grpo.py can lower it for rollouts
     os.makedirs(os.path.join(wd, "out"), exist_ok=True)
     before = {p: os.path.getmtime(p) for p in _work_files(wd)}
     if foreach:

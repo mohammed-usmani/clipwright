@@ -30,6 +30,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 import eval_agent
+import sandbox
 from reward import reward
 
 # same rendering and masking as the SFT run (notebooks/train_v3_4b.py), so RL trains exactly what SFT trained
@@ -73,7 +74,7 @@ def http(url, body=None, timeout=60):
 def start_vllm(a, adapter_dir, name):
     env = {**os.environ, "VLLM_ALLOW_RUNTIME_LORA_UPDATING": "True"}
     cmd = ["vllm", "serve", a.model, "--port", str(a.port), "--gpu-memory-utilization", str(a.vllm_mem),
-           "--max-model-len", "16384", "--enable-prefix-caching", "--enable-lora", "--max-lora-rank", "32",
+           "--max-model-len", "16384", "--enable-prefix-caching", "--max-num-seqs", str(a.workers), "--enable-lora", "--max-lora-rank", "32",
            "--max-loras", "2", "--lora-modules", f"{name}={adapter_dir}",
            "--enable-auto-tool-choice", "--tool-call-parser", a.tool_parser]
     proc = subprocess.Popen(cmd, stdout=open(os.path.join(a.out, "vllm.log"), "a"), stderr=subprocess.STDOUT, env=env)
@@ -125,6 +126,25 @@ def token_logprobs(model, ids, mask, torch):
                       for c in range(0, len(pos), 1024)])
 
 
+def pull(a):
+    """Restore checkpoint/, log.jsonl and samples/ from the hub repo, if it has a run."""
+    from huggingface_hub import create_repo, snapshot_download
+    create_repo(a.hub_repo, private=True, exist_ok=True)
+    snapshot_download(a.hub_repo, local_dir=a.out)
+    print("pulled", a.hub_repo, open(os.path.join(a.out, "checkpoint", "state.json")).read()
+          if os.path.exists(os.path.join(a.out, "checkpoint", "state.json")) else "(empty: fresh run)", flush=True)
+
+
+def push(a, step):
+    """Upload the run dir; a failed upload is retried at the next save instead of stopping training."""
+    from huggingface_hub import upload_folder
+    try:
+        upload_folder(repo_id=a.hub_repo, folder_path=a.out, commit_message=f"step {step}",
+                      ignore_patterns=["vllm.log", "stdout.log"])
+    except Exception as e:
+        print(f"hub push failed at step {step}: {e!r}"[:300], flush=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pool", required=True, help="verified task rows (gen2.py output)")
@@ -145,8 +165,14 @@ def main():
     ap.add_argument("--workers", type=int, default=32)
     ap.add_argument("--save-every", type=int, default=5)
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--cmd-timeout", type=int, default=60,
+                    help="per-command limit in rollouts; test clips are under ~75 s, so longer means a hung command")
+    ap.add_argument("--hub-repo", help="private HF repo for checkpoints: pushed every save, pulled on start (resume on a new VM)")
     a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)
+    sandbox.TIMEOUT = a.cmd_timeout
+    if a.hub_repo and not os.path.exists(os.path.join(a.out, "checkpoint", "state.json")):
+        pull(a)
 
     import torch
     from peft import PeftConfig, PeftModel
@@ -252,6 +278,8 @@ def main():
                 model.save_pretrained(ckpt)
                 torch.save(opt.state_dict(), os.path.join(ckpt, "optim.pt"))
                 json.dump(state, open(os.path.join(ckpt, "state.json"), "w"))
+                if a.hub_repo:
+                    push(a, step)
     finally:
         if vllm:
             vllm.terminate()
