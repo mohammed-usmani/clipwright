@@ -32,7 +32,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 EVAL = os.path.join(HERE, "eval")
 MAX_STEPS = 15  # same as teacher_api
 MAX_TOKENS = 1024  # per reply; the longest assistant turn in the training data is ~600 tokens
-# V1 (Ray1239/ffmpeg-model) was trained to answer with one raw ffmpeg command and no tools: its exact system prompt
+# V1 (mohammed-usmani/ffmpeg-model) was trained to answer with one raw ffmpeg command and no tools: its exact system prompt
 V1_SYSTEM = ("You are an expert video engineer. Translate the user's natural language request into a valid FFmpeg command. "
              "Output ONLY the raw FFmpeg command. Do not provide markdown formatting, explanations, or quotes.")
 

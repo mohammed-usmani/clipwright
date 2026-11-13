@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Comparison eval, phase 2: V1 as published (Ray1239/ffmpeg-model, Qwen2.5-Coder-7B QLoRA, Q4_K_M).
+# Comparison eval, phase 2: V1 as published (mohammed-usmani/ffmpeg-model, Qwen2.5-Coder-7B QLoRA, Q4_K_M).
 # V1 answers with one raw ffmpeg command: its own system prompt, paths mapped to in/ out/, run once (eval_agent --v1).
 cd "$(dirname $0)/.."
 export JOB_TMP=$PWD/eval/tmp TMPDIR=$PWD/eval/tmp

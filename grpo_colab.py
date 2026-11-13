@@ -1,6 +1,6 @@
 """Run grpo.py on a Colab A100 unattended: create the VM, set it up, launch, watch, recover, stop.
 
-    caffeinate -i python3 grpo_colab.py --steps 100 --hub-repo Ray1239/clipwright-grpo-ckpt
+    caffeinate -i python3 grpo_colab.py --steps 100 --hub-repo mohammed-usmani/clipwright-grpo-ckpt
 
 Checkpoints go to a private HF repo every --save-every steps, so a VM that dies (or a Mac that sleeps or drops off the
 network) costs at most that many steps: the next pass of the loop makes a new VM and grpo.py resumes from the repo.
@@ -181,7 +181,7 @@ def main():
     ap.add_argument("--tasks", type=int, default=8)
     ap.add_argument("--group", type=int, default=8)
     ap.add_argument("--save-every", type=int, default=5)
-    ap.add_argument("--adapter", default="Ray1239/clipwright-4b")
+    ap.add_argument("--adapter", default="mohammed-usmani/clipwright-4b")
     ap.add_argument("--pool", default=os.path.join(HERE, "data", "rl", "pool.jsonl"))
     ap.add_argument("--out", default=os.path.join(HERE, "models", "grpo-colab"))
     ap.add_argument("--every", type=int, default=300, help="seconds between checks")
@@ -216,6 +216,11 @@ def main():
             continue
         st = json.loads(out.split("STATUS ", 1)[1].splitlines()[0]) if "STATUS " in out else {"state": "?"}
         if st["state"] == "none":
+            launch(a)
+        elif st["state"] == "done" and (st.get("last") or {}).get("step", 0) < a.steps:
+            # an earlier, shorter run finished on this VM: continue it here with the current pool (no new VM/setup)
+            log(a, f"run reached step {st['last']['step']}; continuing to {a.steps} on the same VM")
+            colab("upload", "-s", NAME, a.pool, "/content/cw/data/rl/pool.jsonl", timeout=600)
             launch(a)
         elif st["state"] in ("done", "failed"):
             log(a, f"run {st['state']}; last step: {st.get('last')}")

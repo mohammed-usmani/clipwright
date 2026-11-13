@@ -8,7 +8,7 @@ into vLLM. Everything needed to resume (adapter, optimizer, step, task position)
     # Colab setup: media tools matching the Mac versions (apt has ImageMagick 6, no `magick`)
     micromamba install -y -c conda-forge ffmpeg imagemagick sox exiftool && pip install vllm peft causal-conv1d flash-linear-attention  # fast linear-attention kernels
     python3 gen2.py --per-type 40 --seed 101 --out data/rl/pool.jsonl     # verified tasks, train fixtures only
-    python3 grpo.py --pool data/rl/pool.jsonl --adapter Ray1239/clipwright-4b --out /content/drive/MyDrive/rl/run1
+    python3 grpo.py --pool data/rl/pool.jsonl --adapter mohammed-usmani/clipwright-4b --out /content/drive/MyDrive/rl/run1
 
     # local smoke test, no vLLM: rollouts from a running llama-server, one update on CPU/MPS
     python3 grpo.py --pool x.jsonl --model Qwen/Qwen3.5-0.8B --adapter models/qwen08b-full/final \
@@ -149,7 +149,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pool", required=True, help="verified task rows (gen2.py output)")
     ap.add_argument("--model", default="Qwen/Qwen3.5-4B")
-    ap.add_argument("--adapter", default="Ray1239/clipwright-4b", help="starting LoRA (the SFT model): HF id or dir")
+    ap.add_argument("--adapter", default="mohammed-usmani/clipwright-4b", help="starting LoRA (the SFT model): HF id or dir")
     ap.add_argument("--out", required=True, help="run dir: log.jsonl, samples/, checkpoint (resumes from it)")
     ap.add_argument("--work", default="/tmp/grpo-jobs", help="scratch dir for rollout job folders")
     ap.add_argument("--url", help="use an already running OpenAI-compatible server (no vLLM, no adapter sync)")

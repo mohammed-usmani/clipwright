@@ -1,0 +1,154 @@
+{"id": "a01", "category": "v2/A1 end card + voiceover", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 33}
+{"id": "a02", "category": "v2/A1 end card + voiceover", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 33}
+{"id": "a04", "category": "v2/A1 end card + voiceover", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 27}
+{"id": "a03", "category": "v2/A1 end card + voiceover", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 32}
+{"id": "a05", "category": "v2/A2 text intro card", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 38}
+{"id": "a06", "category": "v2/A2 text intro card", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 79}
+{"id": "a07", "category": "v2/A2 text intro card", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 54}
+{"id": "a08", "category": "v2/A2 text intro card", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 48}
+{"id": "a09", "category": "v2/A3 insert at timestamp", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 69}
+{"id": "a10", "category": "v2/A3 insert at timestamp", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 69}
+{"id": "a12", "category": "v2/A3 insert at timestamp", "pass": true, "status": "done", "steps": 4, "errors": [], "secs": 225}
+{"id": "a14", "category": "v2/A4 remove sections", "pass": false, "status": "stopped: length", "steps": 3, "errors": ["*.mp4: found 0 file(s)"], "secs": 191}
+{"id": "a16", "category": "v2/A4 remove sections", "pass": false, "status": "done", "steps": 1, "errors": ["speech_cut.mp4: duration 13.0s not in [9.7, 10.3]"], "secs": 33}
+{"id": "a11", "category": "v2/A3 insert at timestamp", "pass": false, "status": "loop", "steps": 9, "errors": ["talk_edit.mp4: unreadable"], "secs": 495}
+{"id": "a13", "category": "v2/A4 remove sections", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 34}
+{"id": "a18", "category": "v2/A5 crossfade join", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 63}
+{"id": "a15", "category": "v2/A4 remove sections", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 31}
+{"id": "a20", "category": "v2/A5 crossfade join", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 25}
+{"id": "a17", "category": "v2/A5 crossfade join", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 70}
+{"id": "a19", "category": "v2/A5 crossfade join", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 115}
+{"id": "a22", "category": "v2/A6 voiceover at time", "pass": false, "status": "done", "steps": 7, "errors": ["clip_vo.mp4: audio 6.3..8.2s at -40.6 dB, expected >= -40", "clip_vo.mp4: 440 Hz band not ducked: -40.7 dB during speech vs -39.7 dB without"], "secs": 190}
+{"id": "a24", "category": "v2/A6 voiceover at time", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 32}
+{"id": "a21", "category": "v2/A6 voiceover at time", "pass": false, "status": "done", "steps": 2, "errors": ["tutorial_vo.mp4: audio 5.3..7.0s at None dB, expected >= -45"], "secs": 57}
+{"id": "a26", "category": "v2/A7 partial speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 51}
+{"id": "a28", "category": "v2/A7 partial speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 53}
+{"id": "a30", "category": "v2/A8 combined edits", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "a32", "category": "v2/A8 combined edits", "pass": false, "status": "done", "steps": 1, "errors": ["troll_slow.mp4: pitch 182 Hz vs input 182 Hz, ratio not in [0.55, 0.87]"], "secs": 32}
+{"id": "a23", "category": "v2/A6 voiceover at time", "pass": false, "status": "loop", "steps": 9, "errors": ["promo_edit.mp4: duration 20.2s not in [16.7, 17.4]", "promo_edit.mp4: 440 Hz band not ducked: -24.2 dB during speech vs -24.2 dB without"], "secs": 152}
+{"id": "a34", "category": "v2/A9 picture-in-picture", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 36}
+{"id": "a25", "category": "v2/A7 partial speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 35}
+{"id": "a36", "category": "v2/A10 side by side", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 29}
+{"id": "a27", "category": "v2/A7 partial speed", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 52}
+{"id": "a38", "category": "v2/A10 side by side", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 31}
+{"id": "a40", "category": "v2/A11 freeze frame", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "a29", "category": "v2/A8 combined edits", "pass": false, "status": "done", "steps": 1, "errors": ["vlog_edit.mp4: pitch 182 Hz vs input 182 Hz, ratio not in [1.2, 1.8]"], "secs": 32}
+{"id": "a42", "category": "v2/A11 freeze frame", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 47}
+{"id": "a31", "category": "v2/A8 combined edits", "pass": true, "status": "done", "steps": 6, "errors": [], "secs": 154}
+{"id": "a33", "category": "v2/A9 picture-in-picture", "pass": false, "status": "loop", "steps": 6, "errors": ["screen_pip.mp4: unreadable"], "secs": 88}
+{"id": "a35", "category": "v2/A9 picture-in-picture", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 30}
+{"id": "a37", "category": "v2/A10 side by side", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "a39", "category": "v2/A11 freeze frame", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 33}
+{"id": "a41", "category": "v2/A11 freeze frame", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "b01", "category": "v2/B12 multi-platform", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 149}
+{"id": "b03", "category": "v2/B12 multi-platform", "pass": false, "status": "done", "steps": 4, "errors": ["yt.mp4: 640x360 is not 16:9 (short side >= 480)", "story.mp4: 480x270 is not 9:16 (short side >= 480)"], "secs": 88}
+{"id": "b05", "category": "v2/B13 size limit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 25}
+{"id": "b07", "category": "v2/B13 size limit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "b09", "category": "v2/B14 split chunks", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 37}
+{"id": "b11", "category": "v2/B14 split chunks", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "b13", "category": "v2/B15 highlight clip", "pass": true, "status": "done", "steps": 5, "errors": [], "secs": 109}
+{"id": "b15", "category": "v2/B16 styled subtitles", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 24}
+{"id": "b17", "category": "v2/B16 styled subtitles", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "b19", "category": "v2/B17 thumbnail", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "b21", "category": "v2/B17 thumbnail", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "b23", "category": "v2/B18 audiogram", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "c01", "category": "v2/C19 voice effects", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "c03", "category": "v2/C19 voice effects", "pass": false, "status": "done", "steps": 1, "errors": ["speech_fx.m4a: audio 2.95..3.4s at -91.0 dB, expected >= -65"], "secs": 13}
+{"id": "c05", "category": "v2/C20 voice cleanup", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "c07", "category": "v2/C20 voice cleanup", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "c09", "category": "v2/C21 ducking music", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "c11", "category": "v2/C22 remove pauses", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 50}
+{"id": "c13", "category": "v2/C22 remove pauses", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 39}
+{"id": "c15", "category": "v2/C23 fix sync", "pass": false, "status": "loop", "steps": 4, "errors": ["*.mp4: found 0 file(s)"], "secs": 64}
+{"id": "c17", "category": "v2/C24 audio tracks", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 24}
+{"id": "c19", "category": "v2/C24 audio tracks", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 20}
+{"id": "c21", "category": "v2/C25 channels", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "c23", "category": "v2/C25 channels", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "d02", "category": "v2/D26 compatibility", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "d04", "category": "v2/D27 variable frame rate", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "d06", "category": "v2/D27 variable frame rate", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "d08", "category": "v2/D28 deinterlace", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 22}
+{"id": "d10", "category": "v2/D29 aspect ratio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 22}
+{"id": "d12", "category": "v2/D29 aspect ratio", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 22}
+{"id": "d14", "category": "v2/D30 brightness", "pass": false, "status": "done", "steps": 1, "errors": ["gym_edit.mp4: brightness 52 not in [85, 190]"], "secs": 19}
+{"id": "d16", "category": "v2/D31 salvage", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "d18", "category": "v2/D31 salvage", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "e02", "category": "v2/E32 batch images", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "e04", "category": "v2/E33 product photo", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "e06", "category": "v2/E33 product photo", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "e08", "category": "v2/E34 text on image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "e10", "category": "v2/E35 slideshow", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 77}
+{"id": "e12", "category": "v2/E35 slideshow", "pass": false, "status": "done", "steps": 1, "errors": ["slideshow.mp4: duration 40.0s not in [12, 18.6]"], "secs": 87}
+{"id": "e14", "category": "v2/E36 screenshot polish", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "e16", "category": "v2/E37 scans to pdf", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "e18", "category": "v2/E37 scans to pdf", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "f02", "category": "v2/F38 dates", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "f04", "category": "v2/F39 privacy", "pass": false, "status": "done", "steps": 1, "errors": ["img_01.jpg: DateTimeOriginal lost", "img_02.jpg: DateTimeOriginal lost", "img_03.jpg: DateTimeOriginal lost", "img_04.jpg: DateTimeOriginal lost", "img_05.jpg: DateTimeOriginal lost", "img_06.jpg: DateTimeOriginal lost"], "secs": 28}
+{"id": "f06", "category": "v2/F39 privacy", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 59}
+{"id": "f08", "category": "v2/F40 report", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 24}
+{"id": "g01", "category": "v2/G41 diagnose", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 12}
+{"id": "g03", "category": "v2/G41 diagnose", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "g05", "category": "v2/G42 find timestamps", "pass": false, "status": "loop", "steps": 6, "errors": ["answer misses /\\b3(\\.0+)?\\s*s|\\b0?:03\\b|\\b3(\\.0+)?\\b/", "answer misses /7\\.5|0?:07\\.5/", "answer misses /\\b12(\\.0+)?\\b|0?:12/"], "secs": 87}
+{"id": "g07", "category": "v2/G42 find timestamps", "pass": false, "status": "done", "steps": 1, "errors": ["answer misses /\\b1\\.5/", "answer misses /\\b6(\\.0+)?\\b/"], "secs": 23}
+{"id": "g09", "category": "v2/G43 compare", "pass": true, "status": "done", "steps": 0, "errors": [], "secs": 7}
+{"id": "h01", "category": "v2/H44 recover from mistake", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 37}
+{"id": "h03", "category": "v2/H44 recover from mistake", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 22}
+{"id": "h05", "category": "v2/H45 ask first", "pass": true, "status": "done", "steps": 0, "errors": [], "secs": 3}
+{"id": "h07", "category": "v2/H45 ask first", "pass": true, "status": "done", "steps": 0, "errors": [], "secs": 5}
+{"id": "h09", "category": "v2/H46 explain limits", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 10}
+{"id": "b02", "category": "v2/B12 multi-platform", "pass": false, "status": "step limit", "steps": 15, "errors": ["tiktok.mp4: unreadable", "feed.mp4: found 0 file(s)"], "secs": 3971}
+{"id": "b04", "category": "v2/B12 multi-platform", "pass": false, "status": "done", "steps": 4, "errors": ["story.mp4: 1080x608 is not 9:16 (short side >= 600)"], "secs": 90}
+{"id": "b06", "category": "v2/B13 size limit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "b08", "category": "v2/B13 size limit", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "b10", "category": "v2/B14 split chunks", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 46}
+{"id": "b12", "category": "v2/B15 highlight clip", "pass": false, "status": "step limit", "steps": 15, "errors": ["podcast_highlight.mp4: unreadable"], "secs": 3514}
+{"id": "b14", "category": "v2/B15 highlight clip", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 35}
+{"id": "b16", "category": "v2/B16 styled subtitles", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 24}
+{"id": "b18", "category": "v2/B16 styled subtitles", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "b20", "category": "v2/B17 thumbnail", "pass": false, "status": "done", "steps": 1, "errors": ["episode_thumb.png: 1280x720, expected 1920x1080"], "secs": 17}
+{"id": "b22", "category": "v2/B18 audiogram", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 30}
+{"id": "b24", "category": "v2/B18 audiogram", "pass": false, "status": "done", "steps": 4, "errors": ["show.mp4: duration 6.0s not in [9.6, 10.5]"], "secs": 94}
+{"id": "c02", "category": "v2/C19 voice effects", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "c04", "category": "v2/C19 voice effects", "pass": false, "status": "done", "steps": 2, "errors": ["call_af11.m4a: 5000 Hz band at -58.0 dB, expected <= -70"], "secs": 22}
+{"id": "c06", "category": "v2/C20 voice cleanup", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 21}
+{"id": "c08", "category": "v2/C21 ducking music", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 29}
+{"id": "c10", "category": "v2/C21 ducking music", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 28}
+{"id": "c12", "category": "v2/C22 remove pauses", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 15}
+{"id": "c14", "category": "v2/C23 fix sync", "pass": false, "status": "done", "steps": 1, "errors": ["clap_synced.mp4: audio is -520 ms off the picture"], "secs": 19}
+{"id": "c16", "category": "v2/C23 fix sync", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "c18", "category": "v2/C24 audio tracks", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 21}
+{"id": "c20", "category": "v2/C24 audio tracks", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 19}
+{"id": "c22", "category": "v2/C25 channels", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "d01", "category": "v2/D26 compatibility", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "d03", "category": "v2/D26 compatibility", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "d05", "category": "v2/D27 variable frame rate", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "d07", "category": "v2/D28 deinterlace", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "d09", "category": "v2/D28 deinterlace", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "d11", "category": "v2/D29 aspect ratio", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 23}
+{"id": "d13", "category": "v2/D30 brightness", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "d15", "category": "v2/D30 brightness", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "d17", "category": "v2/D31 salvage", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "e01", "category": "v2/E32 batch images", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 26}
+{"id": "e03", "category": "v2/E32 batch images", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 27}
+{"id": "e05", "category": "v2/E33 product photo", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 16}
+{"id": "e07", "category": "v2/E34 text on image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "e09", "category": "v2/E34 text on image", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 14}
+{"id": "e11", "category": "v2/E35 slideshow", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 67}
+{"id": "e13", "category": "v2/E36 screenshot polish", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 19}
+{"id": "e15", "category": "v2/E36 screenshot polish", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "e17", "category": "v2/E37 scans to pdf", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "f01", "category": "v2/F38 dates", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 34}
+{"id": "f03", "category": "v2/F38 dates", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 11}
+{"id": "f05", "category": "v2/F39 privacy", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 9}
+{"id": "f07", "category": "v2/F40 report", "pass": true, "status": "done", "steps": 3, "errors": [], "secs": 28}
+{"id": "f09", "category": "v2/F40 report", "pass": false, "status": "loop", "steps": 12, "errors": ["*.txt|*.csv|*.json: found 0 file(s)"], "secs": 117}
+{"id": "g02", "category": "v2/G41 diagnose", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "g04", "category": "v2/G41 diagnose", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 13}
+{"id": "g06", "category": "v2/G42 find timestamps", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 20}
+{"id": "g08", "category": "v2/G43 compare", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 20}
+{"id": "g10", "category": "v2/G43 compare", "pass": true, "status": "done", "steps": 2, "errors": [], "secs": 25}
+{"id": "h02", "category": "v2/H44 recover from mistake", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 17}
+{"id": "h04", "category": "v2/H44 recover from mistake", "pass": true, "status": "done", "steps": 1, "errors": [], "secs": 23}
+{"id": "h06", "category": "v2/H45 ask first", "pass": true, "status": "done", "steps": 0, "errors": [], "secs": 4}
+{"id": "h08", "category": "v2/H46 explain limits", "pass": false, "status": "done", "steps": 1, "errors": ["answer misses /(can.?t|cannot|not possible|won.?t|doesn.?t|no real|invent|upscal)/"], "secs": 30}
+{"id": "h10", "category": "v2/H46 explain limits", "pass": true, "status": "done", "steps": 0, "errors": [], "secs": 7}

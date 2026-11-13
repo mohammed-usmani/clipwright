@@ -4,7 +4,7 @@
 
 The goal is a model small enough to run on a laptop that gets media jobs *right*, not just syntactically valid. Every training example and every eval score is checked by actually running the commands and inspecting the output files.
 
-**Current model: [Clipwright-4B](https://huggingface.co/Ray1239/clipwright-4b)** (Qwen3.5-4B + LoRA, Q8_0 GGUF). It runs locally on a Mac with llama.cpp and comes with a web app: drop in a file, describe the edit, and watch it work.
+**Current model: [Clipwright-4B](https://huggingface.co/mohammed-usmani/clipwright-4b)** (Qwen3.5-4B + LoRA, Q8_0 GGUF). It runs locally on a Mac with llama.cpp and comes with a web app: drop in a file, describe the edit, and watch it work.
 
 ## Clipwright-4B
 
@@ -13,14 +13,21 @@ On `test_v2`, a harder 154-task execution-checked set (`test_tasks.py`):
 | Model | test_v2 (154) |
 |---|---|
 | V2: Qwen3.5-0.8B | 33 (21%) |
-| **V3: Qwen3.5-4B** | **115 (75%)** |
+| V3: Qwen3.5-4B, SFT | 115 (75%) |
+| Qwen3.8-27B (the teacher that wrote the training data) | 119 (77%) |
+| **V4: V3 + 100 steps of GRPO** | **128 (83%)** |
+
+V4 adds reinforcement learning on V3 (`grpo.py`, run unattended on a Colab A100 by `grpo_colab.py`): each step the
+model tries 8 fresh verified tasks 8 times, every attempt is executed and checked by `verify()`, and the passing
+attempts are reinforced (`reward.py`). 100 steps took about 6 hours; more steps did not help (step 150: 126,
+step 200 trailing step 100 by 6 at 88/154 tasks).
 
 ## Web app
 
 **With Docker (any OS, isolated):** run the model natively so it keeps the GPU / Metal, and the app plus its tools in containers. Nothing to install besides Docker and [llama.cpp](https://github.com/ggml-org/llama.cpp).
 
 ```bash
-llama-server -hf Ray1239/clipwright-4b:Q8_0 --jinja -c 32768 --port 8080   # the model, native
+llama-server -hf mohammed-usmani/clipwright-4b:Q8_0 --jinja -c 32768 --port 8080   # the model, native
 docker compose up --build                                        # http://127.0.0.1:8765
 ```
 
@@ -104,11 +111,11 @@ v1 writes plausible one-line commands that often miss what a request implies (se
 - [x] SFT on Qwen3.5-0.8B
 - [x] Execution eval (base vs fine-tuned vs 4B), pass@k headroom study
 - [x] Controlled comparison: V1 vs same-model burak29 control vs V2, plus a 45-task hand-written test set (`ood_tasks.py`)
-- [ ] GRPO on the 0.8B with `verify()` as the reward
+- [x] GRPO with `verify()` as the reward: 4B 115 -> 128/154
 - [ ] Error-recovery data for jobs no sample solves (looping on a failing command)
 - [ ] Broaden beyond the templates: hand-written multi-deliverable jobs are 0/5
-- [x] Publish the model on Hugging Face: [Ray1239/clipwright-0.8b](https://huggingface.co/Ray1239/clipwright-0.8b) (LoRA adapter + merged Q8_0 GGUF)
-- [x] Scale to Qwen3.5-4B: 115/154 on test_v2 (0.8B: 33/154) — [Ray1239/clipwright-4b](https://huggingface.co/Ray1239/clipwright-4b)
+- [x] Publish the model on Hugging Face: [mohammed-usmani/clipwright-0.8b](https://huggingface.co/mohammed-usmani/clipwright-0.8b) (LoRA adapter + merged Q8_0 GGUF)
+- [x] Scale to Qwen3.5-4B: 115/154 on test_v2 (0.8B: 33/154) — [mohammed-usmani/clipwright-4b](https://huggingface.co/mohammed-usmani/clipwright-4b)
 - [x] Local web app (`app/`)
 - [ ] Container isolation for the command runner, cross-platform packaging
 - [ ] Publish the dataset on Hugging Face
